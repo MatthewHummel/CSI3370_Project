@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Meta from 'vue-meta'
 
 import MainDesktop from './views/main-desktop'
+import Menupage from './views/menupage'
 import './style.css'
 
 Vue.use(Router)
@@ -15,5 +16,10 @@ export default new Router({
       path: '/home',
       component: MainDesktop,
     },
+    {
+      name: 'Menupage',
+      path: '/menu',
+      component: Menupage,
+    }
   ],
 })

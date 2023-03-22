@@ -1,0 +1,2896 @@
+<template>
+  <div class="menupage-container">
+    <div class="menupage-menupage">
+      <div class="menupage-header">
+        <img
+          src="/playground_assets/background2717-o6wl.svg"
+          alt="background2717"
+          class="menupage-background"
+        />
+        <div class="menupage-headinggroup">
+          <div class="menupage-navigationbar">
+            <span class="menupage-text"><span>my cart</span></span>
+            <span class="menupage-text002"><span>My account</span></span>
+            <span class="menupage-text004"><span>Menu</span></span>
+            <span class="menupage-text006"><span>About us</span></span>
+            <span class="menupage-text008"><span>Home</span></span>
+          </div>
+          <img
+            src="/playground_assets/logo2717-nsd.svg"
+            alt="Logo2717"
+            class="menupage-logo"
+          />
+          <span class="menupage-text010"><span>Super generic cafe</span></span>
+        </div>
+      </div>
+      <div class="menupage-footer">
+        <div class="menupage-footerbackground">
+          <img
+            src="/playground_assets/grayboxi2617-gnx8.svg"
+            alt="grayboxI2617"
+            class="menupage-graybox"
+          />
+        </div>
+        <div class="menupage-divider">
+          <img
+            src="/playground_assets/linei2617-gil.svg"
+            alt="lineI2617"
+            class="menupage-line"
+          />
+        </div>
+        <div class="menupage-social-media">
+          <img
+            src="/playground_assets/iconini2617-qujn.svg"
+            alt="iconinI2617"
+            class="menupage-iconin"
+          />
+          <img
+            src="/playground_assets/iconfbi2617-wd5r.svg"
+            alt="iconfbI2617"
+            class="menupage-iconfb"
+          />
+          <img
+            src="/playground_assets/icontwi2617-afik.svg"
+            alt="icontwI2617"
+            class="menupage-icontw"
+          />
+        </div>
+        <div class="menupage-pagenavigation">
+          <div class="menupage-group86">
+            <span class="menupage-text012"><span>Payment</span></span>
+            <span class="menupage-text014"><span>Franchise</span></span>
+            <span class="menupage-text016"><span>Jobs</span></span>
+            <span class="menupage-text018"><span>Menu</span></span>
+            <span class="menupage-text020"><span>About us</span></span>
+          </div>
+        </div>
+        <div class="menupage-logotitle">
+          <div class="menupage-logo1">
+            <img
+              src="/playground_assets/vectori2617-amof.svg"
+              alt="VectorI2617"
+              class="menupage-vector"
+            />
+            <img
+              src="/playground_assets/vectori2617-es6b.svg"
+              alt="VectorI2617"
+              class="menupage-vector1"
+            />
+            <img
+              src="/playground_assets/vectori2617-dwa2.svg"
+              alt="VectorI2617"
+              class="menupage-vector2"
+            />
+          </div>
+          <span class="menupage-text022"><span>sUPER generic cafe</span></span>
+        </div>
+      </div>
+      <div class="menupage-menusection2">
+        <div class="menupage-productcard">
+          <img
+            src="/playground_assets/backgroundi2717-bgc-500h.png"
+            alt="BackgroundI2717"
+            class="menupage-background01"
+          />
+          <span class="menupage-text024">
+            <span>
+              product description - Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua.
+            </span>
+          </span>
+          <span class="menupage-text026">
+            <span>product_name26</span>
+          </span>
+          <div class="menupage-picture">
+            <img
+              src="/playground_assets/lattepic01i2717-zxpe-300h.png"
+              alt="Lattepic01I2717"
+              class="menupage-lattepic01"
+            />
+          </div>
+          <span class="menupage-text028"><span>$4.99</span></span>
+          <button class="menupage-addtocartbutton">
+            <img
+              src="/playground_assets/primaryi2717-3fzd-200h.png"
+              alt="PrimaryI2717"
+              class="menupage-primary"
+            />
+            <span class="menupage-text030"><span>Add to cart</span></span>
+          </button>
+        </div>
+        <div class="menupage-productcard01">
+          <img
+            src="/playground_assets/backgroundi2717-bhp7-500h.png"
+            alt="BackgroundI2717"
+            class="menupage-background02"
+          />
+          <span class="menupage-text032">
+            <span>
+              product description - Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua.
+            </span>
+          </span>
+          <span class="menupage-text034">
+            <span>product_name25</span>
+          </span>
+          <div class="menupage-picture01">
+            <img
+              src="/playground_assets/lattepic01i2717-k5uf-300h.png"
+              alt="Lattepic01I2717"
+              class="menupage-lattepic011"
+            />
+          </div>
+          <span class="menupage-text036"><span>$4.99</span></span>
+          <button class="menupage-addtocartbutton01">
+            <img
+              src="/playground_assets/primaryi2717-yilc-200h.png"
+              alt="PrimaryI2717"
+              class="menupage-primary01"
+            />
+            <span class="menupage-text038"><span>Add to cart</span></span>
+          </button>
+        </div>
+        <div class="menupage-productcard02">
+          <img
+            src="/playground_assets/backgroundi2717-j9n-500h.png"
+            alt="BackgroundI2717"
+            class="menupage-background03"
+          />
+          <span class="menupage-text040">
+            <span>
+              product description - Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua.
+            </span>
+          </span>
+          <span class="menupage-text042">
+            <span>product_name24</span>
+          </span>
+          <div class="menupage-picture02">
+            <img
+              src="/playground_assets/lattepic01i2717-3y7p-300h.png"
+              alt="Lattepic01I2717"
+              class="menupage-lattepic012"
+            />
+          </div>
+          <span class="menupage-text044"><span>$4.99</span></span>
+          <button class="menupage-addtocartbutton02">
+            <img
+              src="/playground_assets/primaryi2717-boyp-200h.png"
+              alt="PrimaryI2717"
+              class="menupage-primary02"
+            />
+            <span class="menupage-text046"><span>Add to cart</span></span>
+          </button>
+        </div>
+        <div class="menupage-productcard03">
+          <img
+            src="/playground_assets/backgroundi2717-7whm-500h.png"
+            alt="BackgroundI2717"
+            class="menupage-background04"
+          />
+          <span class="menupage-text048">
+            <span>
+              product description - Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua.
+            </span>
+          </span>
+          <span class="menupage-text050">
+            <span>product_name23</span>
+          </span>
+          <div class="menupage-picture03">
+            <img
+              src="/playground_assets/lattepic01i2717-87rh-300h.png"
+              alt="Lattepic01I2717"
+              class="menupage-lattepic013"
+            />
+          </div>
+          <span class="menupage-text052"><span>$4.99</span></span>
+          <button class="menupage-addtocartbutton03">
+            <img
+              src="/playground_assets/primaryi2717-pdhc-200h.png"
+              alt="PrimaryI2717"
+              class="menupage-primary03"
+            />
+            <span class="menupage-text054"><span>Add to cart</span></span>
+          </button>
+        </div>
+        <div class="menupage-productcard04">
+          <img
+            src="/playground_assets/backgroundi2717-mze7-500h.png"
+            alt="BackgroundI2717"
+            class="menupage-background05"
+          />
+          <span class="menupage-text056">
+            <span>
+              product description - Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua.
+            </span>
+          </span>
+          <span class="menupage-text058">
+            <span>product_name22</span>
+          </span>
+          <div class="menupage-picture04">
+            <img
+              src="/playground_assets/lattepic01i2717-5qp6-300h.png"
+              alt="Lattepic01I2717"
+              class="menupage-lattepic014"
+            />
+          </div>
+          <span class="menupage-text060"><span>$4.99</span></span>
+          <button class="menupage-addtocartbutton04">
+            <img
+              src="/playground_assets/primaryi2717-dhtw-200h.png"
+              alt="PrimaryI2717"
+              class="menupage-primary04"
+            />
+            <span class="menupage-text062"><span>Add to cart</span></span>
+          </button>
+        </div>
+        <div class="menupage-productcard05">
+          <img
+            src="/playground_assets/backgroundi2717-nq8a-500h.png"
+            alt="BackgroundI2717"
+            class="menupage-background06"
+          />
+          <span class="menupage-text064">
+            <span>
+              product description - Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua.
+            </span>
+          </span>
+          <span class="menupage-text066">
+            <span>product_name21</span>
+          </span>
+          <div class="menupage-picture05">
+            <img
+              src="/playground_assets/lattepic01i2717-tfok-300h.png"
+              alt="Lattepic01I2717"
+              class="menupage-lattepic015"
+            />
+          </div>
+          <span class="menupage-text068"><span>$4.99</span></span>
+          <button class="menupage-addtocartbutton05">
+            <img
+              src="/playground_assets/primaryi2717-7q3-200h.png"
+              alt="PrimaryI2717"
+              class="menupage-primary05"
+            />
+            <span class="menupage-text070"><span>Add to cart</span></span>
+          </button>
+        </div>
+        <div class="menupage-h2">
+          <span class="menupage-text072">Refreshments</span>
+          <img
+            src="/playground_assets/linei2717-0kra-200h.png"
+            alt="LineI2717"
+            class="menupage-line1"
+          />
+        </div>
+      </div>
+      <div class="menupage-menusection1">
+        <div class="menupage-productcard06">
+          <img
+            src="/playground_assets/backgroundi2717-zn1u-500h.png"
+            alt="BackgroundI2717"
+            class="menupage-background07"
+          />
+          <span class="menupage-text073">
+            <span>
+              product description - Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua.
+            </span>
+          </span>
+          <span class="menupage-text075">
+            <span>product_name16</span>
+          </span>
+          <div class="menupage-picture06">
+            <img
+              src="/playground_assets/lattepic01i2717-l6o-300h.png"
+              alt="Lattepic01I2717"
+              class="menupage-lattepic016"
+            />
+            <img
+              src="/playground_assets/coffeepic01i2717-ga6-300h.png"
+              alt="Coffeepic01I2717"
+              class="menupage-coffeepic01"
+            />
+          </div>
+          <span class="menupage-text077"><span>$4.99</span></span>
+          <button class="menupage-addtocartbutton06">
+            <img
+              src="/playground_assets/primaryi2717-gm06-200h.png"
+              alt="PrimaryI2717"
+              class="menupage-primary06"
+            />
+            <span class="menupage-text079"><span>Add to cart</span></span>
+          </button>
+        </div>
+        <div class="menupage-productcard07">
+          <img
+            src="/playground_assets/backgroundi2717-8za-500h.png"
+            alt="BackgroundI2717"
+            class="menupage-background08"
+          />
+          <span class="menupage-text081">
+            <span>
+              product description - Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua.
+            </span>
+          </span>
+          <span class="menupage-text083">
+            <span>product_name15</span>
+          </span>
+          <div class="menupage-picture07">
+            <img
+              src="/playground_assets/lattepic01i2717-y8e-300h.png"
+              alt="Lattepic01I2717"
+              class="menupage-lattepic017"
+            />
+            <img
+              src="/playground_assets/coffeepic01i2717-satk-300h.png"
+              alt="Coffeepic01I2717"
+              class="menupage-coffeepic011"
+            />
+          </div>
+          <span class="menupage-text085"><span>$4.99</span></span>
+          <button class="menupage-addtocartbutton07">
+            <img
+              src="/playground_assets/primaryi2717-3w1b-200h.png"
+              alt="PrimaryI2717"
+              class="menupage-primary07"
+            />
+            <span class="menupage-text087"><span>Add to cart</span></span>
+          </button>
+        </div>
+        <div class="menupage-productcard08">
+          <img
+            src="/playground_assets/backgroundi2717-4qrd-500h.png"
+            alt="BackgroundI2717"
+            class="menupage-background09"
+          />
+          <span class="menupage-text089">
+            <span>
+              product description - Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua.
+            </span>
+          </span>
+          <span class="menupage-text091">
+            <span>product_name14</span>
+          </span>
+          <div class="menupage-picture08">
+            <img
+              src="/playground_assets/coffeepic01i2717-8118-300h.png"
+              alt="Coffeepic01I2717"
+              class="menupage-coffeepic012"
+            />
+          </div>
+          <span class="menupage-text093"><span>$4.99</span></span>
+          <button class="menupage-addtocartbutton08">
+            <img
+              src="/playground_assets/primaryi2717-qyuw-200h.png"
+              alt="PrimaryI2717"
+              class="menupage-primary08"
+            />
+            <span class="menupage-text095"><span>Add to cart</span></span>
+          </button>
+        </div>
+        <div class="menupage-productcard09">
+          <img
+            src="/playground_assets/backgroundi2717-vbmf-500h.png"
+            alt="BackgroundI2717"
+            class="menupage-background10"
+          />
+          <span class="menupage-text097">
+            <span>
+              product description - Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua.
+            </span>
+          </span>
+          <span class="menupage-text099">
+            <span>product_name13</span>
+          </span>
+          <div class="menupage-picture09">
+            <img
+              src="/playground_assets/coffeepic01i2717-s39-300h.png"
+              alt="Coffeepic01I2717"
+              class="menupage-coffeepic013"
+            />
+          </div>
+          <span class="menupage-text101"><span>$4.99</span></span>
+          <button class="menupage-addtocartbutton09">
+            <img
+              src="/playground_assets/primaryi2717-m9bi-200h.png"
+              alt="PrimaryI2717"
+              class="menupage-primary09"
+            />
+            <span class="menupage-text103"><span>Add to cart</span></span>
+          </button>
+        </div>
+        <div class="menupage-productcard10">
+          <img
+            src="/playground_assets/backgroundi2717-zrxh-500h.png"
+            alt="BackgroundI2717"
+            class="menupage-background11"
+          />
+          <span class="menupage-text105">
+            <span>
+              product description - Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua.
+            </span>
+          </span>
+          <span class="menupage-text107">
+            <span>product_name12</span>
+          </span>
+          <div class="menupage-picture10">
+            <img
+              src="/playground_assets/coffeepic01i2717-qy1q-300h.png"
+              alt="Coffeepic01I2717"
+              class="menupage-coffeepic014"
+            />
+          </div>
+          <span class="menupage-text109"><span>$4.99</span></span>
+          <button class="menupage-addtocartbutton10">
+            <img
+              src="/playground_assets/primaryi2717-ugo-200h.png"
+              alt="PrimaryI2717"
+              class="menupage-primary10"
+            />
+            <span class="menupage-text111"><span>Add to cart</span></span>
+          </button>
+        </div>
+        <div class="menupage-productcard11">
+          <img
+            src="/playground_assets/backgroundi2617-wdhl-500h.png"
+            alt="BackgroundI2617"
+            class="menupage-background12"
+          />
+          <span class="menupage-text113">
+            <span>
+              product description - Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua.
+            </span>
+          </span>
+          <span class="menupage-text115">
+            <span>product_name11</span>
+          </span>
+          <div class="menupage-picture11">
+            <img
+              src="/playground_assets/lattepic01i2617-e67m-300h.png"
+              alt="Lattepic01I2617"
+              class="menupage-lattepic018"
+            />
+            <img
+              src="/playground_assets/coffeepic01i2617-j9ra-300h.png"
+              alt="Coffeepic01I2617"
+              class="menupage-coffeepic015"
+            />
+          </div>
+          <span class="menupage-text117"><span>$4.99</span></span>
+          <button class="menupage-addtocartbutton11">
+            <img
+              src="/playground_assets/primaryi2617-xzyn-200h.png"
+              alt="PrimaryI2617"
+              class="menupage-primary11"
+            />
+            <span class="menupage-text119"><span>Add to cart</span></span>
+          </button>
+        </div>
+        <div class="menupage-menuheading">
+          <span class="menupage-text121"><span>Our Menu</span></span>
+          <img
+            src="/playground_assets/menuunderlinei2617-hu5c-200h.png"
+            alt="menuunderlineI2617"
+            class="menupage-menuunderline"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Menupage',
+  metaInfo: {
+    title: 'exported project',
+  },
+}
+</script>
+
+<style scoped>
+.menupage-container {
+  min-height: 100vh;
+}
+.menupage-menupage {
+  width: 100%;
+  height: 2575px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: var(--dl-color-default-1a1a1a);
+}
+.menupage-header {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 94px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.menupage-background {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 94px;
+  opacity: 0.75;
+  position: absolute;
+  box-shadow: 0px 2px 5px 0px rgba(48, 48, 48, 1) ;
+}
+.menupage-headinggroup {
+  top: 27px;
+  left: 165px;
+  width: 1210px;
+  height: 30px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.menupage-navigationbar {
+  top: 13px;
+  left: 850px;
+  width: 360px;
+  height: 14px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.menupage-text {
+  left: 311px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Alegreya SC;
+  font-weight: 500;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menupage-text002 {
+  left: 209px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Alegreya SC;
+  font-weight: 500;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menupage-text004 {
+  left: 146px;
+  color: rgba(52, 199, 89, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Alegreya SC;
+  font-weight: 500;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menupage-text006 {
+  left: 63px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Alegreya SC;
+  font-weight: 500;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menupage-text008 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Alegreya SC;
+  font-weight: 500;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menupage-logo {
+  top: 0px;
+  left: 0px;
+  width: 31px;
+  height: 30px;
+  position: absolute;
+}
+.menupage-text010 {
+  top: 13px;
+  left: 37px;
+  color: rgba(52, 199, 89, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Alegreya;
+  font-weight: 700;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menupage-footer {
+  top: 2375px;
+  left: 0px;
+  width: 1440px;
+  height: 200px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-footerbackground {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 200px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.menupage-graybox {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 200px;
+  position: absolute;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.10000000149011612) ;
+}
+.menupage-divider {
+  top: 122px;
+  left: -6px;
+  width: 1440px;
+  height: 1px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.menupage-line {
+  top: -0.9999253749847412px;
+  left: 0px;
+  width: 1440px;
+  height: 1px;
+  position: absolute;
+}
+.menupage-social-media {
+  top: 151px;
+  left: 665px;
+  width: 98.1281967163086px;
+  height: 20.000001907348633px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.menupage-iconin {
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.menupage-iconfb {
+  top: 0px;
+  left: 44px;
+  width: 10px;
+  height: 20px;
+  position: absolute;
+}
+.menupage-icontw {
+  top: 3px;
+  left: 78.4761962890625px;
+  width: 20px;
+  height: 16px;
+  position: absolute;
+}
+.menupage-pagenavigation {
+  top: 88px;
+  left: 461px;
+  width: 472px;
+  height: 15px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.menupage-group86 {
+  top: 0px;
+  left: 0px;
+  width: 472px;
+  height: 15px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.menupage-text012 {
+  left: 210px;
+  color: rgba(255, 255, 255, 0.75);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menupage-text014 {
+  left: 325px;
+  color: rgba(255, 255, 255, 0.75);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menupage-text016 {
+  left: 444px;
+  color: rgba(255, 255, 255, 0.75);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menupage-text018 {
+  left: 115px;
+  color: rgba(255, 255, 255, 0.75);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menupage-text020 {
+  color: rgba(255, 255, 255, 0.75);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menupage-logotitle {
+  top: 40px;
+  left: 559px;
+  width: 311px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-logo1 {
+  top: 0px;
+  left: 0px;
+  width: 31px;
+  height: 30.000011444091797px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.menupage-vector {
+  top: 10.2061767578125px;
+  left: 0px;
+  width: 31px;
+  height: 20px;
+  position: absolute;
+}
+.menupage-vector1 {
+  top: 2.18115234375px;
+  left: 15.9129638671875px;
+  width: 5px;
+  height: 7px;
+  position: absolute;
+}
+.menupage-vector2 {
+  top: 0px;
+  left: 20.9864501953125px;
+  width: 7px;
+  height: 9px;
+  position: absolute;
+}
+.menupage-text022 {
+  top: 14px;
+  left: 37px;
+  color: rgba(52, 199, 89, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 14px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-menusection2 {
+  top: 1287px;
+  left: 120px;
+  width: 1200px;
+  height: 1040px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.menupage-productcard {
+  top: 603px;
+  left: 820px;
+  width: 380px;
+  height: 437px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-background01 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 437px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 6px;
+}
+.menupage-text024 {
+  top: 296px;
+  left: 20px;
+  color: rgba(179, 179, 179, 1);
+  width: 337px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-text026 {
+  top: 252px;
+  left: 20px;
+  color: rgba(255, 255, 255, 1);
+  width: 270px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Alegreya;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-picture {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 226px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(196, 196, 196, 1);
+}
+.menupage-lattepic01 {
+  top: -10px;
+  left: -18.4571533203125px;
+  width: 417px;
+  height: 241px;
+  position: absolute;
+  border-color: transparent;
+}
+.menupage-text028 {
+  top: 364px;
+  left: 20px;
+  color: rgba(50, 215, 75, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-addtocartbutton {
+  top: 365px;
+  left: 260px;
+  width: 100px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-primary {
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.menupage-text030 {
+  top: 10px;
+  left: 15px;
+  color: var(--dl-color-default-darkgray);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-productcard01 {
+  top: 603px;
+  left: 410px;
+  width: 380px;
+  height: 437px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-background02 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 437px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 6px;
+}
+.menupage-text032 {
+  top: 296px;
+  left: 20px;
+  color: rgba(179, 179, 179, 1);
+  width: 337px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-text034 {
+  top: 252px;
+  left: 20px;
+  color: rgba(255, 255, 255, 1);
+  width: 270px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Alegreya;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-picture01 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 226px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(196, 196, 196, 1);
+}
+.menupage-lattepic011 {
+  top: -10px;
+  left: -18.4571533203125px;
+  width: 417px;
+  height: 241px;
+  position: absolute;
+  border-color: transparent;
+}
+.menupage-text036 {
+  top: 364px;
+  left: 20px;
+  color: rgba(50, 215, 75, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-addtocartbutton01 {
+  top: 365px;
+  left: 260px;
+  width: 100px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-primary01 {
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.menupage-text038 {
+  top: 10px;
+  left: 15px;
+  color: var(--dl-color-default-darkgray);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-productcard02 {
+  top: 603px;
+  left: 0px;
+  width: 380px;
+  height: 437px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-background03 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 437px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 6px;
+}
+.menupage-text040 {
+  top: 296px;
+  left: 20px;
+  color: rgba(179, 179, 179, 1);
+  width: 337px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-text042 {
+  top: 252px;
+  left: 20px;
+  color: rgba(255, 255, 255, 1);
+  width: 270px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Alegreya;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-picture02 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 226px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(196, 196, 196, 1);
+}
+.menupage-lattepic012 {
+  top: -10px;
+  left: -18.4571533203125px;
+  width: 417px;
+  height: 241px;
+  position: absolute;
+  border-color: transparent;
+}
+.menupage-text044 {
+  top: 364px;
+  left: 20px;
+  color: rgba(50, 215, 75, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-addtocartbutton02 {
+  top: 365px;
+  left: 260px;
+  width: 100px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-primary02 {
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.menupage-text046 {
+  top: 10px;
+  left: 15px;
+  color: var(--dl-color-default-darkgray);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-productcard03 {
+  top: 126px;
+  left: 820px;
+  width: 380px;
+  height: 437px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-background04 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 437px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 6px;
+}
+.menupage-text048 {
+  top: 296px;
+  left: 20px;
+  color: rgba(179, 179, 179, 1);
+  width: 337px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-text050 {
+  top: 252px;
+  left: 20px;
+  color: rgba(255, 255, 255, 1);
+  width: 270px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Alegreya;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-picture03 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 226px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(196, 196, 196, 1);
+}
+.menupage-lattepic013 {
+  top: -10px;
+  left: -18.4571533203125px;
+  width: 417px;
+  height: 241px;
+  position: absolute;
+  border-color: transparent;
+}
+.menupage-text052 {
+  top: 364px;
+  left: 20px;
+  color: rgba(50, 215, 75, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-addtocartbutton03 {
+  top: 365px;
+  left: 260px;
+  width: 100px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-primary03 {
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.menupage-text054 {
+  top: 10px;
+  left: 15px;
+  color: var(--dl-color-default-darkgray);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-productcard04 {
+  top: 126px;
+  left: 410px;
+  width: 380px;
+  height: 437px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-background05 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 437px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 6px;
+}
+.menupage-text056 {
+  top: 296px;
+  left: 20px;
+  color: rgba(179, 179, 179, 1);
+  width: 337px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-text058 {
+  top: 252px;
+  left: 20px;
+  color: rgba(255, 255, 255, 1);
+  width: 270px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Alegreya;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-picture04 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 226px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(196, 196, 196, 1);
+}
+.menupage-lattepic014 {
+  top: -10px;
+  left: -18.4571533203125px;
+  width: 417px;
+  height: 241px;
+  position: absolute;
+  border-color: transparent;
+}
+.menupage-text060 {
+  top: 364px;
+  left: 20px;
+  color: rgba(50, 215, 75, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-addtocartbutton04 {
+  top: 365px;
+  left: 260px;
+  width: 100px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-primary04 {
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.menupage-text062 {
+  top: 10px;
+  left: 15px;
+  color: var(--dl-color-default-darkgray);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-productcard05 {
+  top: 126px;
+  left: 0px;
+  width: 380px;
+  height: 437px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-background06 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 437px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 6px;
+}
+.menupage-text064 {
+  top: 296px;
+  left: 20px;
+  color: rgba(179, 179, 179, 1);
+  width: 337px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-text066 {
+  top: 252px;
+  left: 20px;
+  color: rgba(255, 255, 255, 1);
+  width: 270px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Alegreya;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-picture05 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 226px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(196, 196, 196, 1);
+}
+.menupage-lattepic015 {
+  top: -10px;
+  left: -18.4571533203125px;
+  width: 417px;
+  height: 241px;
+  position: absolute;
+  border-color: transparent;
+}
+.menupage-text068 {
+  top: 364px;
+  left: 20px;
+  color: rgba(50, 215, 75, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-addtocartbutton05 {
+  top: 365px;
+  left: 260px;
+  width: 100px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-primary05 {
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.menupage-text070 {
+  top: 10px;
+  left: 15px;
+  color: var(--dl-color-default-darkgray);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-h2 {
+  top: 0px;
+  left: 321px;
+  width: 558px;
+  height: 66px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-text072 {
+  left: 168px;
+  color: rgb(217, 217, 217);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-line1 {
+  top: 64px;
+  left: 249px;
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  border-color: transparent;
+}
+.menupage-menusection1 {
+  top: 174px;
+  left: 120px;
+  width: 1200px;
+  height: 1040px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.menupage-productcard06 {
+  top: 603px;
+  left: 820px;
+  width: 380px;
+  height: 437px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-background07 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 437px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 6px;
+}
+.menupage-text073 {
+  top: 296px;
+  left: 20px;
+  color: rgba(179, 179, 179, 1);
+  width: 337px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-text075 {
+  top: 252px;
+  left: 20px;
+  color: rgba(255, 255, 255, 1);
+  width: 270px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Alegreya;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-picture06 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 226px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(196, 196, 196, 1);
+}
+.menupage-lattepic016 {
+  top: -10px;
+  left: -18.4571533203125px;
+  width: 417px;
+  height: 241px;
+  position: absolute;
+  border-color: transparent;
+}
+.menupage-coffeepic01 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 234px;
+  position: absolute;
+  border-color: transparent;
+}
+.menupage-text077 {
+  top: 364px;
+  left: 20px;
+  color: rgba(50, 215, 75, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-addtocartbutton06 {
+  top: 365px;
+  left: 260px;
+  width: 100px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-primary06 {
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.menupage-text079 {
+  top: 10px;
+  left: 15px;
+  color: var(--dl-color-default-darkgray);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-productcard07 {
+  top: 603px;
+  left: 410px;
+  width: 380px;
+  height: 437px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-background08 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 437px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 6px;
+}
+.menupage-text081 {
+  top: 296px;
+  left: 20px;
+  color: rgba(179, 179, 179, 1);
+  width: 337px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-text083 {
+  top: 252px;
+  left: 20px;
+  color: rgba(255, 255, 255, 1);
+  width: 270px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Alegreya;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-picture07 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 226px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(196, 196, 196, 1);
+}
+.menupage-lattepic017 {
+  top: -10px;
+  left: -18.4571533203125px;
+  width: 417px;
+  height: 241px;
+  position: absolute;
+  border-color: transparent;
+}
+.menupage-coffeepic011 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 234px;
+  position: absolute;
+  border-color: transparent;
+}
+.menupage-text085 {
+  top: 364px;
+  left: 20px;
+  color: rgba(50, 215, 75, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-addtocartbutton07 {
+  top: 365px;
+  left: 260px;
+  width: 100px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-primary07 {
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.menupage-text087 {
+  top: 10px;
+  left: 15px;
+  color: var(--dl-color-default-darkgray);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-productcard08 {
+  top: 603px;
+  left: 0px;
+  width: 380px;
+  height: 437px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-background09 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 437px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 6px;
+}
+.menupage-text089 {
+  top: 296px;
+  left: 20px;
+  color: rgba(179, 179, 179, 1);
+  width: 337px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-text091 {
+  top: 252px;
+  left: 20px;
+  color: rgba(255, 255, 255, 1);
+  width: 270px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Alegreya;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-picture08 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 226px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(196, 196, 196, 1);
+}
+.menupage-coffeepic012 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 234px;
+  position: absolute;
+  border-color: transparent;
+}
+.menupage-text093 {
+  top: 364px;
+  left: 20px;
+  color: rgba(50, 215, 75, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-addtocartbutton08 {
+  top: 365px;
+  left: 260px;
+  width: 100px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-primary08 {
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.menupage-text095 {
+  top: 10px;
+  left: 15px;
+  color: var(--dl-color-default-darkgray);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-productcard09 {
+  top: 126px;
+  left: 820px;
+  width: 380px;
+  height: 437px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-background10 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 437px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 6px;
+}
+.menupage-text097 {
+  top: 296px;
+  left: 20px;
+  color: rgba(179, 179, 179, 1);
+  width: 337px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-text099 {
+  top: 252px;
+  left: 20px;
+  color: rgba(255, 255, 255, 1);
+  width: 270px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Alegreya;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-picture09 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 226px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(196, 196, 196, 1);
+}
+.menupage-coffeepic013 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 234px;
+  position: absolute;
+  border-color: transparent;
+}
+.menupage-text101 {
+  top: 364px;
+  left: 20px;
+  color: rgba(50, 215, 75, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-addtocartbutton09 {
+  top: 365px;
+  left: 260px;
+  width: 100px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-primary09 {
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.menupage-text103 {
+  top: 10px;
+  left: 15px;
+  color: var(--dl-color-default-darkgray);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-productcard10 {
+  top: 126px;
+  left: 410px;
+  width: 380px;
+  height: 437px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-background11 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 437px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 6px;
+}
+.menupage-text105 {
+  top: 296px;
+  left: 20px;
+  color: rgba(179, 179, 179, 1);
+  width: 337px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-text107 {
+  top: 252px;
+  left: 20px;
+  color: rgba(255, 255, 255, 1);
+  width: 270px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Alegreya;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-picture10 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 226px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(196, 196, 196, 1);
+}
+.menupage-coffeepic014 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 234px;
+  position: absolute;
+  border-color: transparent;
+}
+.menupage-text109 {
+  top: 364px;
+  left: 20px;
+  color: rgba(50, 215, 75, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-addtocartbutton10 {
+  top: 365px;
+  left: 260px;
+  width: 100px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-primary10 {
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.menupage-text111 {
+  top: 10px;
+  left: 15px;
+  color: var(--dl-color-default-darkgray);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-productcard11 {
+  top: 126px;
+  left: 0px;
+  width: 380px;
+  height: 437px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-background12 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 437px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 6px;
+}
+.menupage-text113 {
+  top: 296px;
+  left: 20px;
+  color: rgba(179, 179, 179, 1);
+  width: 337px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-text115 {
+  top: 252px;
+  left: 20px;
+  color: rgba(255, 255, 255, 1);
+  width: 270px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Alegreya;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-picture11 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 226px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(196, 196, 196, 1);
+}
+.menupage-lattepic018 {
+  top: -10px;
+  left: -18.4571533203125px;
+  width: 417px;
+  height: 241px;
+  position: absolute;
+  border-color: transparent;
+}
+.menupage-coffeepic015 {
+  top: 0px;
+  left: 0px;
+  width: 380px;
+  height: 234px;
+  position: absolute;
+  border-color: transparent;
+}
+.menupage-text117 {
+  top: 364px;
+  left: 20px;
+  color: rgba(50, 215, 75, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-addtocartbutton11 {
+  top: 365px;
+  left: 260px;
+  width: 100px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-primary11 {
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.menupage-text119 {
+  top: 10px;
+  left: 15px;
+  color: var(--dl-color-default-darkgray);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-menuheading {
+  top: 0px;
+  left: 321px;
+  width: 558px;
+  height: 66px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menupage-text121 {
+  left: 187px;
+  color: rgba(217, 217, 217, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.menupage-menuunderline {
+  top: 64px;
+  left: 249px;
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  border-color: transparent;
+}
+</style>
