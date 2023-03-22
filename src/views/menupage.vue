@@ -13,7 +13,7 @@
             <span class="main-desktop-text040"><span>My account</span></span>
             <span class="main-desktop-text042"><span>Menu</span></span>
             <span class="main-desktop-text044"><span>Sign up</span></span>
-            <span class="main-desktop-text046"><span>Home</span></span>
+            <span class="main-desktop-text046"><span><router-link to="/home" exact>Home</router-link></span></span>
           </div>
           <img
             src="/playground_assets/logo1923-7x4p.svg"
