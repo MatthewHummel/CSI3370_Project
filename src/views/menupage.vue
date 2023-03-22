@@ -2962,7 +2962,7 @@ export default {
 }
 .main-desktop-text042 {
   left: 80px;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(52, 199, 89, 1);
   height: auto;
   position: absolute;
   font-size: 14px;
@@ -2991,7 +2991,7 @@ export default {
   text-decoration: none;
 }
 .main-desktop-text046 {
-  color: rgba(52, 199, 89, 1);
+  color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
   font-size: 14px;
