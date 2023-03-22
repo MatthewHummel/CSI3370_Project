@@ -954,14 +954,14 @@
             class="main-desktop-imagecard"
           />
           <span class="main-desktop-text229">
-            <span>&#123;&#123;event_name&#125;&#125;</span>
+            <span>EVENT_NAME</span>
           </span>
           <span class="main-desktop-text231">
             <span>July 22nd 1:00pm - 3:00pm</span>
           </span>
           <div class="main-desktop-description3">
             <span class="main-desktop-text233">
-              <span>&#123;&#123;event_description&#125;&#125;</span>
+              <span>EVENT_DESCRIPTION</span>
             </span>
           </div>
         </div>
