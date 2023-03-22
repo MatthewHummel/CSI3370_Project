@@ -868,7 +868,7 @@
         <span class="main-desktop-text164">
           <span>Upcoming ethical events</span>
         </span>
-        <img src="/playground_assets/linei265-em9n-200h.png" alt="LineI265" />
+        <img src="/playground_assets/linei265-em9n-200h.png" alt="LineI265" class="main-desktop-line" />
       </div>
       <div class="main-desktop-upcomingevents">
         <div class="main-desktop-calendar">
@@ -1152,7 +1152,7 @@ export default {
 }
 .main-desktop-text {
   top: 65px;
-  left: 27px;
+  left: 37px;
   color: rgba(255, 255, 255, 0.75);
   height: auto;
   position: absolute;
@@ -1224,7 +1224,7 @@ export default {
 }
 .main-desktop-location {
   top: 0px;
-  left: 334px;
+  left: 355px;
   width: 216px;
   height: 89px;
   display: flex;
@@ -1296,7 +1296,7 @@ export default {
 }
 .main-desktop-icon-color1 {
   top: -4px;
-  left: -4px;
+  left: -6px;
   width: 26px;
   height: 26px;
   display: flex;
@@ -1336,7 +1336,7 @@ export default {
 }
 .main-desktop-text008 {
   top: 83px;
-  left: 43px;
+  left: 53px;
   color: rgba(255, 255, 255, 0.5);
   height: auto;
   position: absolute;
@@ -1408,7 +1408,7 @@ export default {
 }
 .main-desktop-text012 {
   top: 139px;
-  left: 170px;
+  left: 200px;
   color: rgba(255, 255, 255, 1);
   width: 1100px;
   height: auto;
