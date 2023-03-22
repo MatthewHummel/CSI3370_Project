@@ -526,7 +526,7 @@
 export default {
   name: 'Menupage',
   metaInfo: {
-    title: 'exported project',
+    title: 'Super Generic Menu',
   },
 }
 </script>
