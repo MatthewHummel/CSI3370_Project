@@ -1,26 +1,28 @@
 <template>
   <div class="menupage-container">
     <div class="menupage-menupage">
-      <div class="menupage-header">
+      <div class="main-desktop-header1">
         <img
-          src="/playground_assets/background2717-o6wl.svg"
-          alt="background2717"
-          class="menupage-background"
+          src="/playground_assets/background1922-iww.svg"
+          alt="background1922"
+          class="main-desktop-background"
         />
-        <div class="menupage-headinggroup">
-          <div class="menupage-navigationbar">
-            <span class="menupage-text"><span>my cart</span></span>
-            <span class="menupage-text002"><span>My account</span></span>
-            <span class="menupage-text004"><span>Menu</span></span>
-            <span class="menupage-text006"><span>About us</span></span>
-            <span class="menupage-text008"><span>Home</span></span>
+        <div class="main-desktop-headinggroup">
+          <div class="main-desktop-navigationbar">
+            <span class="main-desktop-text038"><span>my cart</span></span>
+            <span class="main-desktop-text040"><span>My account</span></span>
+            <span class="main-desktop-text042"><span>Menu</span></span>
+            <span class="main-desktop-text044"><span>Sign up</span></span>
+            <span class="main-desktop-text046"><span>Home</span></span>
           </div>
           <img
-            src="/playground_assets/logo2717-nsd.svg"
-            alt="Logo2717"
-            class="menupage-logo"
+            src="/playground_assets/logo1923-7x4p.svg"
+            alt="Logo1923"
+            class="main-desktop-logo"
           />
-          <span class="menupage-text010"><span>Super generic cafe</span></span>
+          <span class="main-desktop-text048">
+            <span>Super generic cafe</span>
+          </span>
         </div>
       </div>
       <div class="menupage-footer">
@@ -2892,5 +2894,180 @@ export default {
   height: 2px;
   position: absolute;
   border-color: transparent;
+}
+
+.main-desktop-header1 {
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 94px;
+  display: flex;
+  padding: 0;
+  position: fixed;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.main-desktop-background {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 105%;
+  opacity: 0.75;
+  position: absolute;
+  box-shadow: 0px 2px 5px 0px rgba(48, 48, 48, 1) ;
+}
+
+.main-desktop-headinggroup {
+  top: 27px;
+  left: 165px;
+  width: 1246px;
+  height: 30px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.main-desktop-navigationbar {
+  top: 13px;
+  left: 828px;
+  width: 418px;
+  height: 14px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.main-desktop-text038 {
+  left: 279px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Alegreya SC;
+  font-weight: 500;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-desktop-text040 {
+  left: 160px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Alegreya SC;
+  font-weight: 500;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-desktop-text042 {
+  left: 80px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Alegreya SC;
+  font-weight: 500;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-desktop-text044 {
+  left: 372px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Alegreya SC;
+  font-weight: 500;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-desktop-text046 {
+  color: rgba(52, 199, 89, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Alegreya SC;
+  font-weight: 500;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-desktop-logo {
+  top: 0px;
+  left: 0px;
+  width: 31px;
+  height: 30px;
+  position: absolute;
+}
+.main-desktop-text048 {
+  top: 13px;
+  left: 37px;
+  color: rgba(52, 199, 89, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Alegreya;
+  font-weight: 700;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
 }
 </style>
