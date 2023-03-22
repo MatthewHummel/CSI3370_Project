@@ -497,7 +497,7 @@
         <div class="main-desktop-info">
           <div class="main-desktop-phone1">
             <span class="main-desktop-text089">
-              <span>&#123;&#123;phone_number&#125;&#125;</span>
+              <span>phone_number</span>
             </span>
             <div class="main-desktop-frame-iconsiccall1">
               <div class="main-desktop-icon-color5"></div>
@@ -505,7 +505,7 @@
           </div>
           <div class="main-desktop-location1">
             <span class="main-desktop-text091">
-              <span>&#123;&#123;location&#125;&#125;</span>
+              <span>location</span>
             </span>
             <div class="main-desktop-frame-iconsicnearme1">
               <div class="main-desktop-icon-color6"></div>
@@ -513,7 +513,7 @@
           </div>
           <div class="main-desktop-email">
             <span class="main-desktop-text093">
-              <span>&#123;&#123;email&#125;&#125;</span>
+              <span>email</span>
             </span>
             <img
               src="/playground_assets/vector9630-hghl.svg"
@@ -578,7 +578,7 @@
             </span>
           </span>
           <span class="main-desktop-text102">
-            <span>&#123;&#123;product_name&#125;&#125;</span>
+            <span>product_name6</span>
           </span>
           <div class="main-desktop-picture1">
             <img
@@ -611,7 +611,7 @@
             </span>
           </span>
           <span class="main-desktop-text110">
-            <span>&#123;&#123;product_name&#125;&#125;</span>
+            <span>product_name5</span>
           </span>
           <div class="main-desktop-picture2">
             <img
@@ -644,7 +644,7 @@
             </span>
           </span>
           <span class="main-desktop-text118">
-            <span>&#123;&#123;product_name&#125;&#125;</span>
+            <span>product_name4</span>
           </span>
           <div class="main-desktop-picture3">
             <img
@@ -677,7 +677,7 @@
             </span>
           </span>
           <span class="main-desktop-text126">
-            <span>&#123;&#123;product_name&#125;&#125;</span>
+            <span>product_name3</span>
           </span>
           <div class="main-desktop-picture4">
             <img
@@ -710,7 +710,7 @@
             </span>
           </span>
           <span class="main-desktop-text134">
-            <span>&#123;&#123;product_name&#125;&#125;</span>
+            <span>product_name2</span>
           </span>
           <div class="main-desktop-picture5">
             <img
@@ -743,7 +743,7 @@
             </span>
           </span>
           <span class="main-desktop-text142">
-            <span>&#123;&#123;product_name&#125;&#125;</span>
+            <span>product_name1</span>
           </span>
           <div class="main-desktop-picture6">
             <img
