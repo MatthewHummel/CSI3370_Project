@@ -127,18 +127,18 @@
             </div>
             <div class="main-desktop-item4">
               <span class="main-desktop-text022">
-                <span>&#123;&#123;item4_description&#125;&#125;</span>
+                <span>item4_description</span>
               </span>
               <span class="main-desktop-text024">
-                <span>&#123;&#123;item4&#125;&#125;</span>
+                <span>item4</span>
               </span>
             </div>
             <div class="main-desktop-item3">
               <span class="main-desktop-text026">
-                <span>&#123;&#123;item3_description&#125;&#125;</span>
+                <span>item3_description</span>
               </span>
               <span class="main-desktop-text028">
-                <span>&#123;&#123;item3&#125;&#125;</span>
+                <span>item3</span>
               </span>
               <img
                 src="/playground_assets/line82763-fszu.svg"
@@ -153,18 +153,18 @@
                 class="main-desktop-line7"
               />
               <span class="main-desktop-text030">
-                <span>&#123;&#123;item2_description&#125;&#125;</span>
+                <span>item2_description</span>
               </span>
               <span class="main-desktop-text032">
-                <span>&#123;&#123;item2&#125;&#125;</span>
+                <span>item2</span>
               </span>
             </div>
             <div class="main-desktop-item1">
               <span class="main-desktop-text034">
-                <span>&#123;&#123;item1_description</span>
+                <span>item1_description</span>
               </span>
               <span class="main-desktop-text036">
-                <span>&#123;&#123;item1&#125;&#125;</span>
+                <span>item1</span>
               </span>
               <img
                 src="/playground_assets/line72763-btrwb.svg"
