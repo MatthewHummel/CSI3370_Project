@@ -277,10 +277,10 @@
         <div class="main-desktop-customerreview">
           <div class="main-desktop-user">
             <span class="main-desktop-text068">
-              <span>customerName</span>
+              <span>customerName2</span>
             </span>
             <span class="main-desktop-text070">
-              <span>date_of_review</span>
+              <span>date_of_review2</span>
             </span>
           </div>
           <div class="main-desktop-rating">
