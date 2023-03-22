@@ -277,10 +277,10 @@
         <div class="main-desktop-customerreview">
           <div class="main-desktop-user">
             <span class="main-desktop-text068">
-              <span>&#123;&#123;customerName&#125;&#125;</span>
+              <span>customerName</span>
             </span>
             <span class="main-desktop-text070">
-              <span>&#123;&#123;date_of_review&#125;&#125;</span>
+              <span>date_of_review</span>
             </span>
           </div>
           <div class="main-desktop-rating">
@@ -330,10 +330,10 @@
         <div class="main-desktop-customerreview1">
           <div class="main-desktop-user1">
             <span class="main-desktop-text074">
-              <span>&#123;&#123;customerName&#125;&#125;</span>
+              <span>customerName</span>
             </span>
             <span class="main-desktop-text076">
-              <span>&#123;&#123;date_of_review&#125;&#125;</span>
+              <span>date_of_review</span>
             </span>
           </div>
           <div class="main-desktop-rating1">
