@@ -3207,7 +3207,7 @@ export default {
 .main-desktop-footer {
   top: 4904px;
   left: 0px;
-  width: 1440px;
+  width: 100%;
   height: 200px;
   display: flex;
   position: absolute;
@@ -3218,7 +3218,7 @@ export default {
 .main-desktop-group14 {
   top: 0px;
   left: 0px;
-  width: 1440px;
+  width: 100%;
   height: 200px;
   display: flex;
   padding: 0;
@@ -3240,14 +3240,13 @@ export default {
 .main-desktop-placeholder3 {
   top: 0px;
   left: 0px;
-  width: 1440px;
-  height: 200px;
+  width: 100%;
   position: absolute;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.10000000149011612) ;
 }
 .main-desktop-divider1 {
   top: 122px;
-  left: -6px;
+  left: 38px;
   width: 1440px;
   height: 1px;
   display: flex;
@@ -3269,9 +3268,6 @@ export default {
 }
 .main-desktop-line2 {
   top: -0.9999253749847412px;
-  left: 0px;
-  width: 1440px;
-  height: 1px;
   position: absolute;
 }
 .main-desktop-social-media {
