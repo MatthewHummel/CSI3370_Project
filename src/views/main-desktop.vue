@@ -499,17 +499,21 @@
             <span class="main-desktop-text089">
               <span>phone_number</span>
             </span>
-            <div class="main-desktop-frame-iconsiccall1">
-              <div class="main-desktop-icon-color5"></div>
-            </div>
+            <img
+              src="/playground_assets/vector9630-hghl.svg"
+              alt="Vector9630"
+              class="main-desktop-vector18"
+            />
           </div>
           <div class="main-desktop-location1">
             <span class="main-desktop-text091">
               <span>location</span>
             </span>
-            <div class="main-desktop-frame-iconsicnearme1">
-              <div class="main-desktop-icon-color6"></div>
-            </div>
+            <img
+              src="/playground_assets/vector9630-hghl.svg"
+              alt="Vector9630"
+              class="main-desktop-vector18"
+            />
           </div>
           <div class="main-desktop-email">
             <span class="main-desktop-text093">
