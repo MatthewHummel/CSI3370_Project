@@ -3205,7 +3205,7 @@ export default {
   border-radius: 100px;
 }
 .main-desktop-footer {
-  top: 4904px;
+  bottom: 0;
   left: 0px;
   width: 100%;
   height: 200px;

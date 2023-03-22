@@ -25,66 +25,57 @@
           </span>
         </div>
       </div>
-      <div class="menupage-footer">
-        <div class="menupage-footerbackground">
+      <div class="main-desktop-footer">
+        <div class="main-desktop-group14">
           <img
-            src="/playground_assets/grayboxi2617-gnx8.svg"
-            alt="grayboxI2617"
-            class="menupage-graybox"
+            src="/playground_assets/placeholderi921-no8m.svg"
+            alt="placeholderI921"
+            class="main-desktop-placeholder3"
           />
         </div>
-        <div class="menupage-divider">
+        <div class="main-desktop-divider1">
           <img
-            src="/playground_assets/linei2617-gil.svg"
-            alt="lineI2617"
-            class="menupage-line"
+            src="/playground_assets/linei921-umj.svg"
+            alt="lineI921"
+            class="main-desktop-line2"
           />
         </div>
-        <div class="menupage-social-media">
+        <div class="main-desktop-social-media">
           <img
-            src="/playground_assets/iconini2617-qujn.svg"
-            alt="iconinI2617"
-            class="menupage-iconin"
+            src="/playground_assets/iconini921-l7yt.svg"
+            alt="iconinI921"
+            class="main-desktop-iconin"
           />
           <img
-            src="/playground_assets/iconfbi2617-wd5r.svg"
-            alt="iconfbI2617"
-            class="menupage-iconfb"
+            src="/playground_assets/iconfbi921-c75n.svg"
+            alt="iconfbI921"
+            class="main-desktop-iconfb"
           />
           <img
-            src="/playground_assets/icontwi2617-afik.svg"
-            alt="icontwI2617"
-            class="menupage-icontw"
+            src="/playground_assets/icontwi921-e5cf.svg"
+            alt="icontwI921"
+            class="main-desktop-icontw"
           />
         </div>
-        <div class="menupage-pagenavigation">
-          <div class="menupage-group86">
-            <span class="menupage-text012"><span>Payment</span></span>
-            <span class="menupage-text014"><span>Franchise</span></span>
-            <span class="menupage-text016"><span>Jobs</span></span>
-            <span class="menupage-text018"><span>Menu</span></span>
-            <span class="menupage-text020"><span>About us</span></span>
-          </div>
-        </div>
-        <div class="menupage-logotitle">
-          <div class="menupage-logo1">
+        <div class="main-desktop-logotitle">
+          <div class="main-desktop-logo1">
             <img
-              src="/playground_assets/vectori2617-amof.svg"
-              alt="VectorI2617"
-              class="menupage-vector"
+              src="/playground_assets/vectori921-xr6a.svg"
+              alt="VectorI921"
+              class="main-desktop-vector15"
             />
             <img
-              src="/playground_assets/vectori2617-es6b.svg"
-              alt="VectorI2617"
-              class="menupage-vector1"
+              src="/playground_assets/vectori921-rwi.svg"
+              alt="VectorI921"
+              class="main-desktop-vector16"
             />
             <img
-              src="/playground_assets/vectori2617-dwa2.svg"
-              alt="VectorI2617"
-              class="menupage-vector2"
+              src="/playground_assets/vectori921-w4kr.svg"
+              alt="VectorI921"
+              class="main-desktop-vector17"
             />
           </div>
-          <span class="menupage-text022"><span>sUPER generic cafe</span></span>
+          <span class="main-desktop-text086">Super generic cafe</span>
         </div>
       </div>
       <div class="menupage-menusection2">
@@ -713,39 +704,6 @@ export default {
   line-height: 14px;
   font-stretch: normal;
   text-decoration: none;
-}
-.menupage-footer {
-  top: 2375px;
-  left: 0px;
-  width: 1440px;
-  height: 200px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: transparent;
-}
-.menupage-footerbackground {
-  top: 0px;
-  left: 0px;
-  width: 1440px;
-  height: 200px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: transparent;
 }
 .menupage-graybox {
   top: 0px;
@@ -3068,6 +3026,187 @@ export default {
   font-weight: 700;
   line-height: 14px;
   font-stretch: normal;
+  text-decoration: none;
+}
+.main-desktop-footer {
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.main-desktop-group14 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.main-desktop-placeholder3 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.10000000149011612) ;
+}
+.main-desktop-divider1 {
+  top: 122px;
+  left: 38px;
+  width: 1440px;
+  height: 1px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.main-desktop-line2 {
+  top: -0.9999253749847412px;
+  position: absolute;
+}
+.main-desktop-social-media {
+  top: 151px;
+  left: 665px;
+  width: 98.1281967163086px;
+  height: 20.000001907348633px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.main-desktop-iconin {
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.main-desktop-iconfb {
+  top: 0px;
+  left: 44px;
+  width: 10px;
+  height: 20px;
+  position: absolute;
+}
+.main-desktop-icontw {
+  top: 3px;
+  left: 78.4761962890625px;
+  width: 20px;
+  height: 16px;
+  position: absolute;
+}
+.main-desktop-logotitle {
+  top: 40px;
+  left: 559px;
+  width: 311px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.main-desktop-logo1 {
+  top: 0px;
+  left: 0px;
+  width: 31px;
+  height: 30.000011444091797px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.main-desktop-vector15 {
+  top: 10.2061767578125px;
+  left: 0px;
+  width: 31px;
+  height: 20px;
+  position: absolute;
+}
+.main-desktop-vector16 {
+  top: 2.18115234375px;
+  left: 15.9129638671875px;
+  width: 5px;
+  height: 7px;
+  position: absolute;
+}
+.main-desktop-vector17 {
+  top: 0px;
+  left: 20.9864501953125px;
+  width: 7px;
+  height: 9px;
+  position: absolute;
+}
+.main-desktop-text086 {
+  top: 14px;
+  left: 37px;
+  color: rgb(52, 199, 89);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 14px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
   text-decoration: none;
 }
 </style>
