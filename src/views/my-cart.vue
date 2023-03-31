@@ -59,7 +59,6 @@
           <span class="my-cart-text10">
             <span class="my-cart-text11">
               Total:
-              <span v-html="raw6hrl"></span>
             </span>
             <span>$00.00</span>
           </span>
@@ -72,7 +71,6 @@
           <span class="my-cart-text15">
             <span class="my-cart-text16">
               Tax:
-              <span v-html="raw13fq"></span>
             </span>
             <span>$0.00</span>
           </span>
@@ -83,7 +81,6 @@
           <span class="my-cart-text21">
             <span class="my-cart-text22">
               Subtotal:
-              <span v-html="rawipkp"></span>
             </span>
             <span>$00.00</span>
           </span>
