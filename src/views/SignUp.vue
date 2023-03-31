@@ -143,21 +143,21 @@ export default {
 }
 
 .register input {
-    width: 300px;
+    width: 400px;
     height: 40px;
     padding-left: 20px;
     display: block;
     margin-bottom: 30px;
     margin-right: auto;
     margin-left: auto;
-    border: 1px solid skyblue;
+    border: 3px solid rgb(29, 113, 50);
 }
 
 .register button {
-    width: 320px;
+    width: 220px;
     height: 40px;
-    border: 1px solid skyblue;
-    background-color: green;
+    border: 3px solid rgba(52, 199, 89, 1);
+    background-color: rgb(29, 113, 50);
     color: white;
     cursor: pointer;
     margin: 0 auto;
