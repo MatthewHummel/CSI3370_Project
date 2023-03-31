@@ -4,6 +4,7 @@ import Meta from 'vue-meta'
 
 import MainDesktop from './views/main-desktop'
 import Menupage from './views/menupage'
+import MyCart from './views/my-cart'
 import './style.css'
 
 Vue.use(Router)
@@ -20,6 +21,11 @@ export default new Router({
       name: 'Menupage',
       path: '/menu',
       component: Menupage,
-    }
+    },
+    {
+      name: 'MyCart',
+      path: '/cart',
+      component: MyCart,
+    },
   ],
 })

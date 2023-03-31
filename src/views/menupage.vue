@@ -9,7 +9,7 @@
         />
         <div class="main-desktop-headinggroup">
           <div class="main-desktop-navigationbar">
-            <span class="main-desktop-text038"><span>my cart</span></span>
+            <span class="main-desktop-text038"><span><router-link to="/cart" exact>my cart</router-link></span></span>
             <span class="main-desktop-text040"><span>My account</span></span>
             <span class="main-desktop-text042"><span>Menu</span></span>
             <span class="main-desktop-text044"><span>Sign up</span></span>
