@@ -1,6 +1,8 @@
 <template>
 <body class="background">
 <div>
+
+    <img class="logo" src="/playground_assets/logo1923-7x4p.svg" />
     <p class="logo-text">
         Super generic sign up!
     </p>
@@ -29,6 +31,62 @@
           </span>
         </div>
       </div>
+    
+
+
+      <div class="main-desktop-footer">
+        <div class="main-desktop-group14">
+          <img
+            src="/playground_assets/placeholderi921-no8m.svg"
+            alt="placeholderI921"
+            class="main-desktop-placeholder3"
+          />
+        </div>
+        <div class="main-desktop-divider1">
+          <img
+            src="/playground_assets/linei921-umj.svg"
+            alt="lineI921"
+            class="main-desktop-line2"
+          />
+        </div>
+        <div class="main-desktop-social-media">
+          <img
+            src="/playground_assets/iconini921-l7yt.svg"
+            alt="iconinI921"
+            class="main-desktop-iconin"
+          />
+          <img
+            src="/playground_assets/iconfbi921-c75n.svg"
+            alt="iconfbI921"
+            class="main-desktop-iconfb"
+          />
+          <img
+            src="/playground_assets/icontwi921-e5cf.svg"
+            alt="icontwI921"
+            class="main-desktop-icontw"
+          />
+        </div>
+        <div class="main-desktop-logotitle">
+          <div class="main-desktop-logo1">
+            <img
+              src="/playground_assets/vectori921-xr6a.svg"
+              alt="VectorI921"
+              class="main-desktop-vector15"
+            />
+            <img
+              src="/playground_assets/vectori921-rwi.svg"
+              alt="VectorI921"
+              class="main-desktop-vector16"
+            />
+            <img
+              src="/playground_assets/vectori921-w4kr.svg"
+              alt="VectorI921"
+              class="main-desktop-vector17"
+            />
+          </div>
+          <span class="main-desktop-text086">Super generic cafe</span>
+        </div>
+      </div>
 </div>
 </body>
 </template>
@@ -54,13 +112,22 @@ export default {
     text-align: center;
     font-family: Alegreya;
     font-weight: 700;
-    line-height: 25vw;
+    padding-top: 20px;
 }
 
 .background {
     background-image: linear-gradient(180deg, rgba(26, 26, 26, 1) 0%, rgba(43, 43, 43, 1) 100%);
-    height: 100vw;
+    height: 55vw;
 }
+
+.logo {
+    width: 100px;
+    margin: auto;
+    padding-top: 8vw;
+}
+
+
+
 
 
 
@@ -242,7 +309,6 @@ export default {
   bottom: 0;
   left: 0px;
   width: 100%;
-  height: 200px;
   display: flex;
   position: absolute;
   align-items: flex-start;
