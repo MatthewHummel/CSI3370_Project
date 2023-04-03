@@ -17,8 +17,6 @@
         <input type="tel" id = "phone" name = "phone" placeholder="Enter Phone Number" required />
         <button id="confirmation-button">Sign Up Now</button>
         </form>
-      <button>Log in</button>
-      <button>Log out</button>
     </div>
 
     <div class="login">
