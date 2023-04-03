@@ -141,7 +141,7 @@ export default {
 
 .background {
     background-image: linear-gradient(180deg, rgba(26, 26, 26, 1) 0%, rgba(43, 43, 43, 1) 100%);
-    height: 55vw;
+    height: 70vw;
 }
 
 .logo {
@@ -384,7 +384,7 @@ export default {
   left: 0px;
   width: 100%;
   display: flex;
-  position: absolute;
+  position: relative;
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
