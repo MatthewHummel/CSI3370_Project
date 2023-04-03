@@ -118,6 +118,7 @@
 
 
 <script>
+import axios from "axios"
 //Don't touch export default
 export default {
   name: 'SignUp',
@@ -126,9 +127,8 @@ export default {
   },
 }
 //This supposedly handles the submit button 
-import axios from 'axios'
 
-const Register = () => {
+/*const Register = () => {
   const [inputs, setInputs] = userState({
     fname: "",
     lname: "",
@@ -137,22 +137,20 @@ const Register = () => {
     email: "",
     phone: "",
   })
-}
+
 
 const handleChange = e =>{
   setInputs(prev=>({...prev, [e.target.name]: e.target.value}))
 }
 
 const handleSubmit = async e =>{
-  try {
   const res = await axios.post("http://localhost:8800/", inputs) //In the quotes, please enter what you make the insert command
   console.log(res)
-}catch(err){
-  console.log(err)
 }
+
+
+}*/
 </script>
-
-
 
 <style>
 
