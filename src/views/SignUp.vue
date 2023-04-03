@@ -9,13 +9,13 @@
 
     <div class="register">
       <form>
-        <input type="text" id = "fname" name = "fname" placeholder="Enter First Name" required />
-        <input type="text" id = "lname" name = "lname" placeholder="Enter Last Name" required />
-        <input type="text" id = "username" name = "username" placeholder="Enter Username" required />
-        <input type="password" id="password" name = "password" placeholder="Enter Password" required/>
-        <input type="text" id = "email" name = "email" placeholder="Enter Email" required />
-        <input type="tel" id = "phone" name = "phone" placeholder="Enter Phone Number" required />
-        <button id="confirmation-button">Sign Up Now</button>
+        <input type="text" id = "fname" name = "fname" placeholder="Enter First Name" required onChange={handleChange}/>
+        <input type="text" id = "lname" name = "lname" placeholder="Enter Last Name" required onChange={handleChange}/>
+        <input type="text" id = "username" name = "username" placeholder="Enter Username" required onChange={handleChange}/>
+        <input type="password" id="password" name = "password" placeholder="Enter Password" required onChange={handleChange}/>
+        <input type="text" id = "email" name = "email" placeholder="Enter Email" required onChange={handleChange}/>
+        <input type="tel" id = "phone" name = "phone" placeholder="Enter Phone Number" required onChange={handleChange}/>
+        <button onClick={handleSubmit}>Sign Up Now</button>
         </form>
     </div>
 
@@ -118,11 +118,37 @@
 
 
 <script>
+//Don't touch export default
 export default {
   name: 'SignUp',
   metaInfo: {
     title: 'Super Generic Sign up',
   },
+}
+//This supposedly handles the submit button 
+import axios from 'axios'
+
+const Register = () => {
+  const [inputs, setInputs] = userState({
+    fname: "",
+    lname: "",
+    username: "",
+    password: "",
+    email: "",
+    phone: "",
+  })
+}
+
+const handleChange = e =>{
+  setInputs(prev=>({...prev, [e.target.name]: e.target.value}))
+}
+
+const handleSubmit = async e =>{
+  try {
+  const res = await axios.post("http://localhost:8800/", inputs) //In the quotes, please enter what you make the insert command
+  console.log(res)
+}catch(err){
+  console.log(err)
 }
 </script>
 
