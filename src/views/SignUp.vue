@@ -16,7 +16,16 @@
         <input type="text" id = "email" name = "email" placeholder="Enter Email" required />
         <input type="tel" id = "phone" name = "phone" placeholder="Enter Phone Number" required />
         <button id="confirmation-button">Sign Up Now</button>
+        <button>Log in</button>
+        <button>Log out</button>
       </form>
+    </div>
+
+    <div class="login">
+      <button>Log in</button>
+    </div>
+    <div class="logout">
+      <button>Log out</button>
     </div>
   
 
