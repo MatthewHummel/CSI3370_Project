@@ -16,9 +16,9 @@
         <input type="text" id = "email" name = "email" placeholder="Enter Email" required />
         <input type="tel" id = "phone" name = "phone" placeholder="Enter Phone Number" required />
         <button id="confirmation-button">Sign Up Now</button>
-        <button>Log in</button>
-        <button>Log out</button>
-      </form>
+        </form>
+      <button>Log in</button>
+      <button>Log out</button>
     </div>
 
     <div class="login">
@@ -151,6 +151,34 @@ export default {
     margin: auto;
     padding-top: 8vw;
 }
+
+.login {
+  padding-top: 2vw;
+}
+.login button {
+  width: 220px;
+  height: 40px;
+  border: 3px solid rgb(52, 199, 177);
+  background-color: rgb(29, 113, 113);
+  color: white;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}
+.logout {
+  padding-top: 2vw;
+}
+.logout button {
+  width: 220px;
+  height: 40px;
+  border: 3px solid rgb(199, 155, 52);
+  background-color: rgb(113, 72, 29);
+  color: white;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}
+
 
 .register {
     padding-top: 2vw;
