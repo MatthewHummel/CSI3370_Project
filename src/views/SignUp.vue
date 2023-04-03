@@ -12,10 +12,12 @@
         <input type="text" placeholder="Enter Email" />
         <input type="password" placeholder="Enter Password" />
         <button>Sign Up Now</button>
+        <button>Log in</button>
+        <button>Log out</button>
     </div>
 
 
-
+    
 
     <!-- HEADER -->
 
