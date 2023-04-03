@@ -8,12 +8,17 @@
     </p>
 
     <div class="register">
-        <input type="text" placeholder="Enter Name" />
-        <input type="text" placeholder="Enter Email" />
-        <input type="password" placeholder="Enter Password" />
-        <button>Sign Up Now</button>
+      <form>
+        <input type="text" id = "fname" name = "fname" placeholder="Enter First Name" required />
+        <input type="text" id = "lname" name = "lname" placeholder="Enter Last Name" required />
+        <input type="text" id = "username" name = "username" placeholder="Enter Username" required />
+        <input type="password" id="password" name = "password" placeholder="Enter Password" required/>
+        <input type="text" id = "email" name = "email" placeholder="Enter Email" required />
+        <input type="tel" id = "phone" name = "phone" placeholder="Enter Phone Number" required />
+        <button id="confirmation-button">Sign Up Now</button>
+      </form>
     </div>
-
+  
 
 
 
