@@ -1112,6 +1112,7 @@ export default {
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
+  cursor: pointer;
 }
 .menupage-primary {
   top: 0px;
@@ -1257,6 +1258,7 @@ export default {
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
+  cursor: pointer;
 }
 .menupage-primary01 {
   top: 0px;
@@ -1402,6 +1404,7 @@ export default {
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
+  cursor: pointer;
 }
 .menupage-primary02 {
   top: 0px;
@@ -1547,6 +1550,7 @@ export default {
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
+  cursor: pointer;
 }
 .menupage-primary03 {
   top: 0px;
@@ -1692,6 +1696,7 @@ export default {
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
+  cursor: pointer;
 }
 .menupage-primary04 {
   top: 0px;
@@ -1837,6 +1842,7 @@ export default {
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
+  cursor: pointer;
 }
 .menupage-primary05 {
   top: 0px;
@@ -2048,6 +2054,7 @@ export default {
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
+  cursor: pointer;
 }
 .menupage-primary06 {
   top: 0px;
@@ -2201,6 +2208,7 @@ export default {
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
+  cursor: pointer;
 }
 .menupage-primary07 {
   top: 0px;
@@ -2346,6 +2354,7 @@ export default {
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
+  cursor: pointer;
 }
 .menupage-primary08 {
   top: 0px;
@@ -2491,6 +2500,7 @@ export default {
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
+  cursor: pointer;
 }
 .menupage-primary09 {
   top: 0px;
@@ -2636,6 +2646,7 @@ export default {
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
+  cursor: pointer;
 }
 .menupage-primary10 {
   top: 0px;
@@ -2789,6 +2800,7 @@ export default {
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
+  cursor: pointer;
 }
 .menupage-primary11 {
   top: 0px;
