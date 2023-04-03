@@ -12,12 +12,16 @@
         <input type="text" placeholder="Enter Email" />
         <input type="password" placeholder="Enter Password" />
         <button>Sign Up Now</button>
-        <button>Log in</button>
-        <button>Log out</button>
+    </div>
+
+    <div class="login">
+      <button>Log in</button>
+    </div>
+    <div class="logout">
+      <button>Log out</button>
     </div>
 
 
-    
 
     <!-- HEADER -->
 
@@ -138,6 +142,36 @@ export default {
     width: 100px;
     margin: auto;
     padding-top: 8vw;
+}
+
+.login {
+  padding-top: 2vw;
+}
+
+.login button {
+  width: 220px;
+  height: 40px;
+  border: 3px solid rgb(52, 199, 177);
+  background-color: rgb(29, 113, 113);
+  color: white;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}
+
+.logout {
+  padding-top: 2vw;
+}
+
+.logout button {
+  width: 220px;
+  height: 40px;
+  border: 3px solid rgb(199, 155, 52);
+  background-color: rgb(113, 72, 29);
+  color: white;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
 }
 
 .register {
