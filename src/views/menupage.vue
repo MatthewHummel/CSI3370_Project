@@ -470,13 +470,13 @@
           />
           <span class="menupage-text113">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              product description - One of our light, medium, dark, 
+              decaffeinated, or flavored brews of the day, brewed 
+              from only the top 1% of Arabica beans in the world.
             </span>
           </span>
           <span class="menupage-text115">
-            <span>product_name11</span>
+            <span>Black coffee</span>
           </span>
           <div class="menupage-picture11">
             <img
