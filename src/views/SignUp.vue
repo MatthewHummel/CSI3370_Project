@@ -8,14 +8,14 @@
     </p>
 
     <div class="register">
-      <form>
-        <input type="text" id = "fname" name = "fname" placeholder="Enter First Name" required onChange={handleChange}/>
-        <input type="text" id = "lname" name = "lname" placeholder="Enter Last Name" required onChange={handleChange}/>
-        <input type="text" id = "username" name = "username" placeholder="Enter Username" required onChange={handleChange}/>
-        <input type="password" id="password" name = "password" placeholder="Enter Password" required onChange={handleChange}/>
-        <input type="text" id = "email" name = "email" placeholder="Enter Email" required onChange={handleChange}/>
-        <input type="tel" id = "phone" name = "phone" placeholder="Enter Phone Number" required onChange={handleChange}/>
-        <button onClick={handleSubmit}>Sign Up Now</button>
+      <form id = "signForm" @submit="handleSubmit" novalidate autocomplete="off">
+        <input type="text" id = "fname" name = "fname" placeholder="Enter First Name" v-model="registerObj.fname"/>
+        <input type="text" id = "lname" name = "lname" placeholder="Enter Last Name"  v-model="registerObj.lname"/>
+        <input type="text" id = "username" name = "username" placeholder="Enter Username" v-model="registerObj.username" />
+        <input type="password" id="password" name = "password" placeholder="Enter Password" v-model="registerObj.password" />
+        <input type="text" id = "email" name = "email" placeholder="Enter Email" v-model="registerObj.email" />
+        <input type="tel" id = "phone" name = "phone" placeholder="Enter Phone Number" v-model="registerObj.phone" />
+        <input type="submit" value = "Sign Up" class="button">
         </form>
     </div>
 
@@ -125,31 +125,37 @@ export default {
   metaInfo: {
     title: 'Super Generic Sign up',
   },
-}
-//This supposedly handles the submit button 
 
-/*const Register = () => {
-  const [inputs, setInputs] = userState({
-    fname: "",
-    lname: "",
-    username: "",
-    password: "",
-    email: "",
-    phone: "",
-  })
+  data(){
+    return{
+      registerObj: { fname: "", lname: "", username: "", password: "", email: "", phone: ""}
+      //matchUser: undefined, //had to comment out cause it was yelling about it
+    }
+  },
+
+  methods: {
+    async getMatchUser(email) {
+      let data = await axios.get('' + email);
+      this.matchUser = data.data;
+    },
+
+    async handleSubmit(e){
+      await this.getMatchUser(this.registerObj.email);
+      let data = {
+        user_fname: this.registerObj.fname,
+        user_lname: this.registerObj.lname,
+        user_username: this.registerObj.username,
+        user_password: this.registerObj.password,
+        user_email: this.registerObj.email,
+        user_phone: this.registerObj.phone
+      }
+      await axios.post("", data); //Enter in the path to insert of user
+      //this.$router.push("/login");
+      }
+    }
+  }
 
 
-const handleChange = e =>{
-  setInputs(prev=>({...prev, [e.target.name]: e.target.value}))
-}
-
-const handleSubmit = async e =>{
-  const res = await axios.post("http://localhost:8800/", inputs) //In the quotes, please enter what you make the insert command
-  console.log(res)
-}
-
-
-}*/
 </script>
 
 <style>
