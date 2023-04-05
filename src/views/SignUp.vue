@@ -18,15 +18,7 @@
         <input type="submit" value = "Sign Up" class="signinbutton" />
         </form>
     </div>
-
-
-    <div class="login">
-      <button>Log in</button>
-    </div>
-    <div class="logout">
-      <button>Log out</button>
-    </div>
-  
+ 
 
     
 
@@ -41,7 +33,7 @@
         <div class="main-desktop-headinggroup">
           <div class="main-desktop-navigationbar">
             <span class="main-desktop-text038"><span><router-link to="/cart" exact>My cart</router-link></span></span>
-            <span class="main-desktop-text040"><span>My account</span></span>
+            <span class="main-desktop-text040"><span><router-link to="/account" exact>My account</router-link></span></span>
             <span class="main-desktop-text042"><span><router-link to="/menu" exact>Menu</router-link></span></span>
             <span class="main-desktop-text044"><span>Sign up</span></span>
             <span class="main-desktop-text046"><span><router-link to="/home" exact>Home</router-link></span></span>
@@ -159,8 +151,7 @@ export default {
 
 </script>
 
-<style>
-
+<style scoped>
 .logo-text {
     color: rgba(52, 199, 89, 1);
     font-size: 48px;
@@ -172,7 +163,7 @@ export default {
 
 .background {
     background-image: linear-gradient(180deg, rgba(26, 26, 26, 1) 0%, rgba(43, 43, 43, 1) 100%);
-    height: 70vw;
+    height: 60vw;
 }
 
 .logo {

@@ -6,6 +6,7 @@ import MainDesktop from './views/main-desktop'
 import Menupage from './views/menupage'
 import MyCart from './views/my-cart'
 import SignUp from './views/SignUp'
+import Myaccount from './views/my-account'
 import './style.css'
 
 Vue.use(Router)
@@ -24,6 +25,11 @@ export default new Router({
       component: Menupage,
     },
     {
+      name: 'Myaccount',
+      path: '/account',
+      component: Myaccount,
+    },
+    {
       name: 'MyCart',
       path: '/cart',
       component: MyCart,
@@ -32,6 +38,6 @@ export default new Router({
       name: 'SignUp',
       path: '/signup',
       component: SignUp,
-    }
+    },
   ],
 })
