@@ -15,9 +15,10 @@
         <input type="password" id="password" name = "password" placeholder="Enter Password" v-model="registerObj.password" />
         <input type="text" id = "email" name = "email" placeholder="Enter Email" v-model="registerObj.email" />
         <input type="tel" id = "phone" name = "phone" placeholder="Enter Phone Number" v-model="registerObj.phone" />
-        <input type="submit" value = "Sign Up" class="button">
+        <input type="submit" value = "Sign Up" class="signinbutton" />
         </form>
     </div>
+
 
     <div class="login">
       <button>Log in</button>
@@ -588,6 +589,17 @@ export default {
   margin-right: 0;
   margin-bottom: 0;
   text-decoration: none;
+}
+
+.signinbutton {
+  width: 220px;
+  height: 40px;
+  border: 3px solid rgba(52, 199, 89, 1);
+  background-color: rgb(39, 153, 67);
+  color: white;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
 }
 
 </style>
