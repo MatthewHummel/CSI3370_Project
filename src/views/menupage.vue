@@ -295,13 +295,11 @@
           />
           <span class="menupage-text073">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - Aquafina 16.9 oz bottled water.
             </span>
           </span>
           <span class="menupage-text075">
-            <span>product_name16</span>
+            <span>Bottled Water</span>
           </span>
           <div class="menupage-picture06">
             <img
@@ -315,7 +313,7 @@
               class="menupage-coffeepic01"
             />
           </div>
-          <span class="menupage-text077"><span>$4.99</span></span>
+          <span class="menupage-text077"><span>$3.50</span></span>
           <button class="menupage-addtocartbutton06">
             <img
               src="/playground_assets/primaryi2717-gm06-200h.png"
@@ -333,13 +331,13 @@
           />
           <span class="menupage-text081">
             <span>
-              product description - Lorem ipsum dolor sit
+              Product Description - Lorem ipsum dolor sit
               amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
               ut labore et dolore magna aliqua.
             </span>
           </span>
           <span class="menupage-text083">
-            <span>product_name15</span>
+            <span>Latte</span>
           </span>
           <div class="menupage-picture07">
             <img
@@ -371,13 +369,13 @@
           />
           <span class="menupage-text089">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              product description - A freshly pulled shot of espresso 
+              layered with steamed whole milk and thick rich foam to 
+              offer a luxurious velvety texture and complex aroma.
             </span>
           </span>
           <span class="menupage-text091">
-            <span>product_name14</span>
+            <span>Cappuccino</span>
           </span>
           <div class="menupage-picture08">
             <img
@@ -404,13 +402,13 @@
           />
           <span class="menupage-text097">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - Perfectly balanced with a golden 
+              crema, this intense espresso has a caramel like aroma, 
+              velvety body, earthy flavor and a bittersweet finish.
             </span>
           </span>
           <span class="menupage-text099">
-            <span>product_name13</span>
+            <span>Espresso</span>
           </span>
           <div class="menupage-picture09">
             <img
@@ -437,13 +435,13 @@
           />
           <span class="menupage-text105">
             <span>
-              product description - Lorem ipsum dolor sit
+              Product Description - Lorem ipsum dolor sit
               amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
               ut labore et dolore magna aliqua.
             </span>
           </span>
           <span class="menupage-text107">
-            <span>product_name12</span>
+            <span>Coffee with Cream</span>
           </span>
           <div class="menupage-picture10">
             <img
@@ -452,7 +450,7 @@
               class="menupage-coffeepic014"
             />
           </div>
-          <span class="menupage-text109"><span>$4.99</span></span>
+          <span class="menupage-text109"><span>$3.99</span></span>
           <button class="menupage-addtocartbutton10">
             <img
               src="/playground_assets/primaryi2717-ugo-200h.png"
@@ -470,7 +468,7 @@
           />
           <span class="menupage-text113">
             <span>
-              product description - One of our light, medium, dark, 
+              Product Description - One of our light, medium, dark, 
               decaffeinated, or flavored brews of the day, brewed 
               from only the top 1% of Arabica beans in the world.
             </span>
@@ -490,7 +488,7 @@
               class="menupage-coffeepic015"
             />
           </div>
-          <span class="menupage-text117"><span>$4.99</span></span>
+          <span class="menupage-text117"><span>$2.99</span></span>
           <button class="menupage-addtocartbutton11">
             <img
               src="/playground_assets/primaryi2617-xzyn-200h.png"
