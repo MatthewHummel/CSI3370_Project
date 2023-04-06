@@ -13,6 +13,7 @@
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
                         <!--start of sign up form-->
+                        <form>
                             <div class="mb-3">
                                 <br>
                                 <input 
@@ -69,10 +70,11 @@
                             class="btn btn-primary">Register</button>
                             <br>
                             <br>
-                            <button 
+                        </form>
+                        <!--end of signup form-->   
+                        <button 
                             @click="logout"
-                            class="btn btn-primary">Log out</button>
-                        <!--end of signup form-->         
+                            class="btn btn-primary">Log out</button>      
                     </div>
                     <div class="col-md-3"></div>
                 </div>
