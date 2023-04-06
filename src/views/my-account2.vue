@@ -147,6 +147,7 @@
 
             } else {
                 //we are not signed in here
+                this.$router.replace("account");
             }
         });
     },
@@ -154,7 +155,7 @@
   }
   </script>
       
-      
+
   <style scoped>
   .logo-text {
     color: rgba(52, 199, 89, 1);
