@@ -41,9 +41,11 @@
               class="btn btn-primary">Log in</button>
               <br>
               <br>
+              <!--
               <button 
               @click="logout"
               class="btn btn-primary">Log out</button>
+              -->
             <!--End of account form-->
           </div>
           <div class="col-md-3"></div>
@@ -117,10 +119,10 @@ export default {
     }
   },
 //mounted function to run if a user is logged in. stops user from clicking account header when logged in.
-// mounted: function() {
-//   if(firebase.auth().currentUser)
-//    this.$router.replace("menu");
-// },
+ mounted: function() {
+   if(firebase.auth().currentUser)
+    this.$router.replace("account2");
+ },
 
   methods: {
     //login function

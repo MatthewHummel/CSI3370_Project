@@ -7,6 +7,7 @@ import Menupage from './views/menupage'
 import MyCart from './views/my-cart'
 import SignUp from './views/SignUp'
 import Myaccount from './views/my-account'
+import Myaccount2 from './views/my-account2'
 
 import SignUp2 from './views/SignUp2'
 
@@ -31,6 +32,11 @@ export default new Router({
       name: 'Myaccount',
       path: '/account',
       component: Myaccount,
+    },
+    {
+      name: 'Myaccount2',
+      path: '/account2',
+      component: Myaccount2,
     },
     {
       name: 'MyCart',
