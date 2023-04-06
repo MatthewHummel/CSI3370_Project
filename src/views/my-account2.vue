@@ -17,7 +17,7 @@
               <br>
 
               <h1 class="main-desktop-text045" id="_email">
-                    <label for="email">{{email}}</label>
+                    <label for="email">{{emailString}}</label>
                 </h1>
 
             <br>
@@ -99,6 +99,7 @@
     data() {
       return {
         email: "",
+        emailString: "",
         password: "",
       }
     },
@@ -150,6 +151,7 @@
                 const email = user.email;
 
                 this.email = email;
+                this.emailString = (email + " is currently logged in.");
 
             } else {
                 //we are not signed in here
