@@ -1,13 +1,10 @@
 <template>
     <body class="background">
         <div>
-
             <img class="logo" src="/playground_assets/logo1923-7x4p.svg" />
             <p class="logo-text">
                 Super generic Sign up!
             </p>
-
-
             <div class="container">
                 <div class="row">
                     <div class="col-md-3"></div>
@@ -71,10 +68,7 @@
                             <br>
                             <br>
                         </form>
-                        <!--end of signup form-->   
-                        <!--    <button 
-                            @click="logout"
-                            class="btn btn-primary">Log out</button>  -->    
+                        <!--end of signup form-->      
                     </div>
                     <div class="col-md-3"></div>
                 </div>
@@ -172,19 +166,6 @@ export default {
                 alert("Unable to register user: " + error.message);
             });
         },
-        //function to log out. on signup page for convienience and testing
-        //logout: function() {
-        //const auth = getAuth();
-        //signOut(auth).then(() => {
-          // Sign-out successful.
-          // This will display every time the user clicks the button,
-          //    regardless of if there is a user logged in.
-          //alert("You have successfully logged out");
-          //send error to popup on screen if failed (it wont fail currently 4/6/2023)
-        //}).catch((error) => {
-          //alert("An error occurred while signing out: " + error.message);
-        //});
-      //},
     }
 }
 
