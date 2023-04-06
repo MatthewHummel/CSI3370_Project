@@ -1,13 +1,10 @@
 <template>
     <body class="background">
       <div>
-  
         <img class="logo" src="/playground_assets/logo1923-7x4p.svg" />
         <p class="logo-text">
           Super generic Signed-in Account!
         </p>
-  
-  
         <div class="container">
           <div class="row">
             <div class="col-md-3"></div>
@@ -15,14 +12,12 @@
               <!-- Start of account form-->
               <br>
               <br>
-
+              <!--Displays logged in user message, or nothing-->
               <h1 class="main-desktop-text045" id="_email">
                     <label for="email">{{emailString}}</label>
                 </h1>
-
             <br>
             <br>
-
                 <button 
                 @click="logout"
                 id="logoutButton"
@@ -80,8 +75,7 @@
     </body>
   </template>
       
-      
-      
+ 
   <script>
   import { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "firebase/auth";
   import firebase from 'firebase/compat/app';
@@ -104,8 +98,6 @@
       }
     },
   
-
-
     methods: {
       //login function
         login: function() {
@@ -161,6 +153,7 @@
 
   }
   </script>
+      
       
   <style scoped>
   .logo-text {
