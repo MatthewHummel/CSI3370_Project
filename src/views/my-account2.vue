@@ -128,7 +128,10 @@
             // Sign-out successful.
             // This will display every time the user clicks the button,
             //    regardless of if there is a user logged in.
-            alert("You have successfully logged out");
+            //alert("You have successfully logged out");
+            this.$router.push("account")
+
+
             //send error to popup on screen if failed (it wont fail currently 4/6/2023)
           }).catch((error) => {
             alert("An error occurred while signing out: " + error.message);
