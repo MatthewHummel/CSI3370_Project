@@ -12,20 +12,39 @@
         <div class="row">
           <div class="col-md-3"></div>
           <div class="col-md-6">
-            <form>
+            
               <div class="mb-3">
                 <br>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                  placeholder="Email">
+                <input 
+                type="email" 
+                class="form-control" 
+                id="email" 
+                v-model="email"
+                required
+                aria-describedby="emailHelp"
+                placeholder="Email">
               </div>
               <div class="mb-3">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <input 
+                type="password" 
+                class="form-control" 
+                id="password" 
+                v-model="password"
+                required
+                placeholder="Password">
+                <div v-if="password.length >1 && password.length < 6" class="text-danger">
+                                Password is not long enough!
+                            </div>
               </div>
-              <button type="submit" class="btn btn-primary">Log in</button>
+              <button 
+              @click="login"
+              class="btn btn-primary">Log in</button>
               <br>
               <br>
-              <button type="submit" class="btn btn-primary">Log out</button>
-            </form>
+              <button 
+              @click="logout"
+              class="btn btn-primary">Log out</button>
+            
           </div>
           <div class="col-md-3"></div>
         </div>
@@ -89,11 +108,54 @@
     
     
 <script>
+import { getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
+
 export default {
   name: 'Myaccount',
   metaInfo: {
     title: 'Super Generic Account',
   },
+  
+  data() {
+    return {
+      email: "",
+      password: ""
+    }
+  },
+
+ mounted: function() {
+   if(firebase.auth().currentUser)
+    //this.$router.push("menu");
+    this.$router.replace("menu");
+ },
+
+  methods: {
+      login: function() {
+        const auth = getAuth();
+        signInWithEmailAndPassword(auth, this.email, this.password)
+          .then((userCredential) => {
+            // Signed in 
+            const user = userCredential.user;
+            this.$router.push("menu");
+          })
+          .catch((error) => {
+            alert("Unable to log in user: " + error.message);
+          });
+      },
+
+      logout: function() {
+        const auth = getAuth();
+        signOut(auth).then(() => {
+          // Sign-out successful.
+        }).catch((error) => {
+          alert("An error occurred while signing out: " + error.message);
+        });
+      },
+
+  }
 }
 
 
