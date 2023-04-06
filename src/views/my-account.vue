@@ -12,7 +12,7 @@
         <div class="row">
           <div class="col-md-3"></div>
           <div class="col-md-6">
-            
+            <!-- Start of account form-->
               <div class="mb-3">
                 <br>
                 <input 
@@ -44,21 +44,11 @@
               <button 
               @click="logout"
               class="btn btn-primary">Log out</button>
-            
+            <!--End of account form-->
           </div>
           <div class="col-md-3"></div>
         </div>
       </div>
-
-
-
-      <!-- <div class="login">
-            <button>Log in</button>
-        </div>
-        <div class="logout">
-            <button>Log out</button>
-        </div>
-      -->
 
       <!-- HEADER -->
       <div class="main-desktop-header1">
@@ -113,38 +103,42 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
+//for vue router
 export default {
   name: 'Myaccount',
   metaInfo: {
     title: 'Super Generic Account',
   },
-  
+  //basic data field to return email and password
   data() {
     return {
       email: "",
       password: ""
     }
   },
-
+//mounted function to run if a user is logged in. stops user from clicking account header when logged in.
  mounted: function() {
    if(firebase.auth().currentUser)
     this.$router.replace("menu");
  },
 
   methods: {
+    //login function
       login: function() {
         const auth = getAuth();
         signInWithEmailAndPassword(auth, this.email, this.password)
           .then((userCredential) => {
             // Signed in 
+            // push user to menu page when they log in
             const user = userCredential.user;
             this.$router.push("menu");
           })
+          // display error popup if unable to log in
           .catch((error) => {
             alert("Unable to log in user: " + error.message);
           });
       },
-
+      //log out function
       logout: function() {
         const auth = getAuth();
         signOut(auth).then(() => {
@@ -156,8 +150,6 @@ export default {
 
   }
 }
-
-
 </script>
     
 <style scoped>
