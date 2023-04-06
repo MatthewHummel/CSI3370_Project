@@ -128,7 +128,6 @@ export default {
 
  mounted: function() {
    if(firebase.auth().currentUser)
-    //this.$router.push("menu");
     this.$router.replace("menu");
  },
 
