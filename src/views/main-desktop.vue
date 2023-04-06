@@ -186,7 +186,7 @@
             <span class="main-desktop-text038"><span><router-link to="/cart" exact>My cart</router-link></span></span>
             <span class="main-desktop-text040"><span><router-link to="/account" exact>My account</router-link></span></span>
             <span class="main-desktop-text042"><span><router-link to="/menu" exact>Menu</router-link></span></span>
-            <span class="main-desktop-text044"><span><router-link to="/signup" exact>Sign up</router-link></span></span>
+            <span class="main-desktop-text044"><span><router-link to="/signup2" exact>Sign up</router-link></span></span>
             <span class="main-desktop-text046"><span>Home</span></span>
           </div>
           <img

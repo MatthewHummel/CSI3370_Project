@@ -4,7 +4,7 @@
 
             <img class="logo" src="/playground_assets/logo1923-7x4p.svg" />
             <p class="logo-text">
-                Super generic Account!
+                Super generic Sign up!
             </p>
 
 
@@ -72,9 +72,9 @@
                             <br>
                         </form>
                         <!--end of signup form-->   
-                        <button 
+                        <!--    <button 
                             @click="logout"
-                            class="btn btn-primary">Log out</button>      
+                            class="btn btn-primary">Log out</button>  -->    
                     </div>
                     <div class="col-md-3"></div>
                 </div>
@@ -152,6 +152,12 @@ export default {
         }
     },
 
+    //mounted function to run if a user is logged in. stops user from clicking sign up header when logged in.
+    mounted: function() {
+        if(firebase.auth().currentUser)
+        this.$router.replace("account");
+    },
+
     methods: {
         //signing up a user
         register: function() {
@@ -167,18 +173,18 @@ export default {
             });
         },
         //function to log out. on signup page for convienience and testing
-        logout: function() {
-        const auth = getAuth();
-        signOut(auth).then(() => {
+        //logout: function() {
+        //const auth = getAuth();
+        //signOut(auth).then(() => {
           // Sign-out successful.
           // This will display every time the user clicks the button,
           //    regardless of if there is a user logged in.
-          alert("You have successfully logged out");
+          //alert("You have successfully logged out");
           //send error to popup on screen if failed (it wont fail currently 4/6/2023)
-        }).catch((error) => {
-          alert("An error occurred while signing out: " + error.message);
-        });
-      },
+        //}).catch((error) => {
+          //alert("An error occurred while signing out: " + error.message);
+        //});
+      //},
     }
 }
 

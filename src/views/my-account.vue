@@ -58,7 +58,7 @@
             <span class="main-desktop-text038"><span><router-link to="/cart" exact>My cart</router-link></span></span>
             <span class="main-desktop-text040"><span>My account</span></span>
             <span class="main-desktop-text042"><span><router-link to="/menu" exact>Menu</router-link></span></span>
-            <span class="main-desktop-text044"><span><router-link to="/signup" exact>Sign up</router-link></span></span>
+            <span class="main-desktop-text044"><span><router-link to="/signup2" exact>Sign up</router-link></span></span>
             <span class="main-desktop-text046"><span><router-link to="/home" exact>Home</router-link></span></span>
           </div>
           <img src="/playground_assets/logo1923-7x4p.svg" alt="Logo1923" class="main-desktop-logo" />
@@ -117,10 +117,10 @@ export default {
     }
   },
 //mounted function to run if a user is logged in. stops user from clicking account header when logged in.
- mounted: function() {
-   if(firebase.auth().currentUser)
-    this.$router.replace("menu");
- },
+// mounted: function() {
+//   if(firebase.auth().currentUser)
+//    this.$router.replace("menu");
+// },
 
   methods: {
     //login function
@@ -143,6 +143,10 @@ export default {
         const auth = getAuth();
         signOut(auth).then(() => {
           // Sign-out successful.
+          // This will display every time the user clicks the button,
+          //    regardless of if there is a user logged in.
+          alert("You have successfully logged out");
+          //send error to popup on screen if failed (it wont fail currently 4/6/2023)
         }).catch((error) => {
           alert("An error occurred while signing out: " + error.message);
         });
