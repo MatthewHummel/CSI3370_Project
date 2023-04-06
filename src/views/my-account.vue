@@ -100,7 +100,7 @@
     
     
 <script>
-import { getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
+import { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "firebase/auth";
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
@@ -154,7 +154,21 @@ export default {
         });
       },
 
-  }
+  },
+
+  //responsible for getting signed in user information
+  created() {
+        const auth = getAuth();
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                //we are signed in here
+                this.$router.replace("account2");
+            } else {
+                //we are not signed in here
+            }
+        });
+    },
+
 }
 </script>
     
