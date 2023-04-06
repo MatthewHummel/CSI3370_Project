@@ -13,40 +13,25 @@
             <div class="col-md-3"></div>
             <div class="col-md-6">
               <!-- Start of account form-->
-                <div class="mb-3">
-                  <br>
-                  <input 
-                  type="email" 
-                  class="form-control" 
-                  id="email" 
-                  v-model="email"
-                  required
-                  aria-describedby="emailHelp"
-                  placeholder="Email">
-                </div>
-                <div class="mb-3">
-                  <input 
-                  type="password" 
-                  class="form-control" 
-                  id="password" 
-                  v-model="password"
-                  required
-                  placeholder="Password">
-                  <div v-if="password.length >1 && password.length < 6" class="text-danger">
-                                  Password is not long enough!
-                              </div>
-                </div>
-                <!--
-                <button 
-                @click="login"
-                class="btn btn-primary">Log in</button>
-                -->
+              <br>
+              <br>
+
+              <h1 class="main-desktop-text045" id="_email">
+                    <label for="email">{{email}}</label>
+                </h1>
+
+            <br>
+            <br>
+
                 <button 
                 @click="logout"
+                id="logoutButton"
                 class="btn btn-primary">Log out</button>
               <!--End of account form-->
             </div>
-            <div class="col-md-3"></div>
+            <!--Next column-->
+            <div class="col-md-3">
+            </div>
           </div>
         </div>
   
@@ -98,7 +83,7 @@
       
       
   <script>
-  import { getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
+  import { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "firebase/auth";
   import firebase from 'firebase/compat/app';
   import 'firebase/compat/auth';
   import 'firebase/compat/firestore';
@@ -109,19 +94,17 @@
     metaInfo: {
       title: 'Super Generic Signed-in Account',
     },
+
     //basic data field to return email and password
     data() {
       return {
         email: "",
-        password: ""
+        password: "",
       }
     },
-  //mounted function to run if a user is logged in. stops user from clicking account header when logged in.
-  // mounted: function() {
-  //   if(firebase.auth().currentUser)
-  //    this.$router.replace("menu");
-  // },
   
+
+
     methods: {
       //login function
         login: function() {
@@ -151,8 +134,26 @@
             alert("An error occurred while signing out: " + error.message);
           });
         },
-  
-    }
+
+    },
+
+    //responsible for getting signed in user information
+    created() {
+        const auth = getAuth();
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                //we are signed in here
+                const uid = user.uid;
+                const email = user.email;
+
+                this.email = email;
+
+            } else {
+                //we are not signed in here
+            }
+        });
+    },
+
   }
   </script>
       
@@ -374,6 +375,14 @@
     font-stretch: normal;
     text-decoration: none;
   }
+
+  .main-desktop-text045 {
+    color: white;
+    font-size: 40px;
+    font-family: Alegreya SC;
+    font-weight: 500;
+  }
+
   
   .main-desktop-text046 {
     color: rgba(255, 255, 255, 1);
