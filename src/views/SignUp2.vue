@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
-                        
+                        <!--start of sign up form-->
                             <div class="mb-3">
                                 <br>
                                 <input 
@@ -72,8 +72,7 @@
                             <button 
                             @click="logout"
                             class="btn btn-primary">Log out</button>
-                           
-                        
+                        <!--end of signup form-->         
                     </div>
                     <div class="col-md-3"></div>
                 </div>
@@ -132,7 +131,7 @@
       
 <script>
 import { getAuth, createUserWithEmailAndPassword, signOut } from "firebase/auth";
-import firebase from 'firebase/compat/app';
+import firebase from 'firebase/compat/app'; //will be needed in the future
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
@@ -142,6 +141,7 @@ export default {
     metaInfo: {
         title: 'Super Generic Sign Up',
     },
+    //return data for email, password, and confirm password
     data() {
         return {
             email: "",
@@ -151,31 +151,33 @@ export default {
     },
 
     methods: {
+        //signing up a user
         register: function() {
             const auth = getAuth();
             createUserWithEmailAndPassword(auth, this.email, this.password)
             .then((userCredential) => {
             // Signed in 
             const user = userCredential.user;
-            console.log(user.email);
             })
+            //display error message to popup if failed
             .catch((error) => {
                 alert("Unable to register user: " + error.message);
-            // ..
             });
         },
-
+        //function to log out. on signup page for convienience and testing
         logout: function() {
         const auth = getAuth();
         signOut(auth).then(() => {
           // Sign-out successful.
+          // This will display every time the user clicks the button,
+          //    regardless of if there is a user logged in.
           alert("You have successfully logged out");
+          //send error to popup on screen if failed (it wont fail currently 4/6/2023)
         }).catch((error) => {
           alert("An error occurred while signing out: " + error.message);
         });
       },
     }
-
 }
 
 
