@@ -5,16 +5,16 @@
         <img src="/playground_assets/background1922-iww.svg" alt="background1922" class="main-desktop-background" />
         <div class="main-desktop-headinggroup">
           <div class="main-desktop-navigationbar">
-            <span class="main-desktop-text038"><span><router-link to="/cart" exact>My cart</router-link></span></span>
+            <span class="main-desktop-text038"><span><router-link to="/cart" exact>My Cart</router-link></span></span>
             <span class="main-desktop-text040"><span><router-link to="/account" exact>My
-                  account</router-link></span></span>
+                  Account</router-link></span></span>
             <span class="main-desktop-text042"><span>Menu</span></span>
             <span class="main-desktop-text044"><span><router-link to="/signup2" exact>Sign up</router-link></span></span>
             <span class="main-desktop-text046"><span><router-link to="/home" exact>Home</router-link></span></span>
           </div>
           <img src="/playground_assets/logo1923-7x4p.svg" alt="Logo1923" class="main-desktop-logo" />
           <span class="main-desktop-text048">
-            <span>Super generic cafe</span>
+            <span>Super Generic Cafe</span>
           </span>
         </div>
       </div>

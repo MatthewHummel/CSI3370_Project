@@ -25,25 +25,25 @@
         </div>
         <div class="main-desktop-quickinfo">
           <div class="main-desktop-phone">
-            <span class="main-desktop-text"><span>Call us now</span></span>
-            <span class="main-desktop-text002"><span>123-456-7890</span></span>
+            <span class="main-desktop-text"><span>Call Us Now</span></span>
+            <span class="main-desktop-text002"><span>248-456-7890</span></span>
             <div class="main-desktop-frame-iconsiccall">
               <div class="main-desktop-icon-color"></div>
             </div>
           </div>
           <div class="main-desktop-location">
-            <span class="main-desktop-text004"><span>Nearest cafe</span></span>
+            <span class="main-desktop-text004"><span>Nearest Cafe</span></span>
             <span class="main-desktop-text006">
-              <span>123 fakeStreet, fake town MI</span>
+              <span>123 N. Main Street, Rochester MI</span>
             </span>
             <div class="main-desktop-frame-iconsicnearme">
               <div class="main-desktop-icon-color1"></div>
             </div>
           </div>
           <div class="main-desktop-time">
-            <span class="main-desktop-text008"><span>Working hours</span></span>
+            <span class="main-desktop-text008"><span>Working Hours</span></span>
             <span class="main-desktop-text010">
-              <span>Place an order any time between</span>
+              <span>Place An Order Between</span>
             </span>
             <div class="main-desktop-frame-iconsicwatchlater">
               <div class="main-desktop-icon-color2"></div>
@@ -51,13 +51,13 @@
           </div>
         </div>
         <span class="main-desktop-text012">
-          <span>Ethically sourced, ethically produced, ethically consumed</span>
+          <span>Super Generic Cafe: Ethically Sourced in Every Way</span>
         </span>
         <span class="main-desktop-text014"><span>10:00am - 7:00pm</span></span>
       </div>
       <div class="main-desktop-seasonalitemmodule">
         <div class="main-desktop-header">
-          <span class="main-desktop-text016"><span>seasonal items</span></span>
+          <span class="main-desktop-text016"><span>Daily Favorites</span></span>
           <span class="main-desktop-text018">
             <span>Order by 2:00pm daily</span>
           </span>
@@ -189,8 +189,8 @@
         />
         <div class="main-desktop-headinggroup">
           <div class="main-desktop-navigationbar">
-            <span class="main-desktop-text038"><span><router-link to="/cart" exact>My cart</router-link></span></span>
-            <span class="main-desktop-text040"><span><router-link to="/account" exact>My account</router-link></span></span>
+            <span class="main-desktop-text038"><span><router-link to="/cart" exact>My Cart</router-link></span></span>
+            <span class="main-desktop-text040"><span><router-link to="/account" exact>My Account</router-link></span></span>
             <span class="main-desktop-text042"><span><router-link to="/menu" exact>Menu</router-link></span></span>
             <span class="main-desktop-text044"><span><router-link to="/signup2" exact>Sign up</router-link></span></span>
             <span class="main-desktop-text046"><span>Home</span></span>
@@ -201,7 +201,7 @@
             class="main-desktop-logo"
           />
           <span class="main-desktop-text048">
-            <span>Super generic cafe</span>
+            <span>Super Generic Cafe</span>
           </span>
         </div>
       </div>
@@ -272,7 +272,7 @@
         </div>
         <div class="main-desktop-h21">
           <span class="main-desktop-text066">
-            <span>Ethically sourced reviews</span>
+            <span>Ethically Sourced Reviews</span>
           </span>
           <img
             src="/playground_assets/linei926-xkt-200h.png"
@@ -283,10 +283,10 @@
         <div class="main-desktop-customerreview">
           <div class="main-desktop-user">
             <span class="main-desktop-text068">
-              <span>customerName2</span>
+              <span>@SamSmith</span>
             </span>
             <span class="main-desktop-text070">
-              <span>date_of_review2</span>
+              <span>Feburary 25th 2023</span>
             </span>
           </div>
           <div class="main-desktop-rating">
@@ -319,11 +319,8 @@
           <div class="main-desktop-description">
             <span class="main-desktop-text072">
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut Lorem ipsum dolor sit amet,
-                consectetur adipiscing. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum
-                dolor sit amet, consectetur adipiscing.
+                The best cafe I have ever visited. Was a lovely experience.
+                Recommend them all the time to my friends and family.
               </span>
             </span>
             <img
@@ -336,10 +333,10 @@
         <div class="main-desktop-customerreview1">
           <div class="main-desktop-user1">
             <span class="main-desktop-text074">
-              <span>customerName</span>
+              <span>@JohnDoe</span>
             </span>
             <span class="main-desktop-text076">
-              <span>date_of_review</span>
+              <span>March 14th 2023</span>
             </span>
           </div>
           <div class="main-desktop-rating1">
@@ -372,11 +369,8 @@
           <div class="main-desktop-description1">
             <span class="main-desktop-text078">
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut Lorem ipsum dolor sit amet,
-                consectetur adipiscing. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum
-                dolor sit amet, consectetur adipiscing.
+                A very nice, generic cafe in the heart of Rochester.
+                Gives off a good vibe and the coffee is fantastic.
               </span>
             </span>
             <img
@@ -389,7 +383,7 @@
         <div class="main-desktop-customerreview2">
           <div class="main-desktop-user2">
             <span class="main-desktop-text080"><span>@MatthewHummel</span></span>
-            <span class="main-desktop-text082"><span>July 23rd 2021</span></span>
+            <span class="main-desktop-text082"><span>Feburary 23rd 2023</span></span>
           </div>
           <div class="main-desktop-rating2">
             <img
@@ -421,11 +415,8 @@
           <div class="main-desktop-description2">
             <span class="main-desktop-text084">
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut Lorem ipsum dolor sit amet,
-                consectetur adipiscing. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum
-                dolor sit amet, consectetur adipiscing.
+                A lovely little cafe with fabulous expresso. 
+                Expresso so good it keeps away the depresso.
               </span>
             </span>
             <img
@@ -492,7 +483,7 @@
       <div class="main-desktop-contactusmodule">
         <div class="main-desktop-h22">
           <span class="main-desktop-text087">
-            <span>Get in touch with us!</span>
+            <span>Get in Touch With Us!</span>
           </span>
           <img
             src="/playground_assets/linei986-avvf-200h.png"
@@ -503,7 +494,7 @@
         <div class="main-desktop-info">
           <div class="main-desktop-phone1">
             <span class="main-desktop-text089">
-              <span>phone_number</span>
+              <span>248-456-7890</span>
             </span>
             <img
               src="/playground_assets/vector9630-hghl.svg"
@@ -513,7 +504,7 @@
           </div>
           <div class="main-desktop-location1">
             <span class="main-desktop-text091">
-              <span>location</span>
+              <span>Rochester MI</span>
             </span>
             <img
               src="/playground_assets/vector9630-hghl.svg"
@@ -523,7 +514,7 @@
           </div>
           <div class="main-desktop-email">
             <span class="main-desktop-text093">
-              <span>email</span>
+              <span>supergenericcafe@gmail.com</span>
             </span>
             <img
               src="/playground_assets/vector9630-hghl.svg"
@@ -540,7 +531,7 @@
               class="main-desktop-primary01"
             />
             <span class="main-desktop-text095">
-              Email body
+              <input type="text" placeholder="Contact Us Body">
             </span>
           </div>
           <div class="main-desktop-inputfield1">
@@ -550,7 +541,7 @@
               class="main-desktop-primary02"
             />
             <span class="main-desktop-text096">
-              Name of person sending form
+              <input type="text" placeholder="Customer Name">
             </span>
           </div>
           <div class="main-desktop-inputfield2">
@@ -560,7 +551,7 @@
               class="main-desktop-primary03"
             />
             <span class="main-desktop-text097">
-              Email heading
+              <input type="text" placeholder="Customer Email">
             </span>
           </div>
           <button class="main-desktop-sendbuttonnormalstate21">
@@ -812,7 +803,7 @@
               class="main-desktop-messagevector"
             />
           </div>
-          <span class="main-desktop-text152"><span>Hang out spot</span></span>
+          <span class="main-desktop-text152"><span>Hang Out Spot</span></span>
         </div>
         <div class="main-desktop-partyad">
           <div class="main-desktop-group104">
@@ -827,7 +818,7 @@
               class="main-desktop-vector20"
             />
           </div>
-          <span class="main-desktop-text154"><span>Small parties</span></span>
+          <span class="main-desktop-text154"><span>Small Parties</span></span>
         </div>
       </div>
       <div class="main-desktop-tipmodule">
@@ -847,13 +838,13 @@
         <div class="main-desktop-text156">
           <span class="main-desktop-text157">
             <span>
-              <span>Start your day</span>
+              <span>Start Your Day</span>
               <br />
-              <span>with coffee!</span>
+              <span>With Coffee!</span>
             </span>
           </span>
           <span class="main-desktop-text162">
-            <span>description text</span>
+            <span>Freshly brewed coffee and baked goods every day!</span>
           </span>
         </div>
         <div class="main-desktop-button-ui">
@@ -876,7 +867,7 @@
       </div>
       <div class="main-desktop-h24">
         <span class="main-desktop-text164">
-          <span>Upcoming ethical events</span>
+          <span>Upcoming Ethical Events</span>
         </span>
         <img src="/playground_assets/linei265-em9n-200h.png" alt="LineI265" class="main-desktop-line" />
       </div>
@@ -964,20 +955,20 @@
             class="main-desktop-imagecard"
           />
           <span class="main-desktop-text229">
-            <span>EVENT_NAME</span>
+            <span>Coffee Lovers Anonymous</span>
           </span>
           <span class="main-desktop-text231">
             <span>July 22nd 1:00pm - 3:00pm</span>
           </span>
           <div class="main-desktop-description3">
             <span class="main-desktop-text233">
-              <span>EVENT_DESCRIPTION</span>
+              <span>A place for coffee lovers to talk about their love of coffee</span>
             </span>
           </div>
         </div>
         <div class="main-desktop-upcomingevent">
           <span class="main-desktop-text235">
-            <span>Coffee fanatic meetup</span>
+            <span>Coffee Talk</span>
           </span>
           <span class="main-desktop-text237">
             <span>July 3rd 11:00am - 12:00pm</span>
@@ -985,8 +976,8 @@
           <div class="main-desktop-content">
             <span class="main-desktop-text239">
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut
+                A conference about all things coffee 
+                and new suggestions for the cafe.
               </span>
             </span>
           </div>
