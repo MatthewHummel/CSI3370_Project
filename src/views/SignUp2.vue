@@ -10,7 +10,7 @@
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
                         <!--start of sign up form-->
-                        <form>
+                        <div>
                             <div class="mb-3">
                                 <br>
                                 <input 
@@ -67,7 +67,7 @@
                             class="btn btn-primary">Register</button>
                             <br>
                             <br>
-                        </form>
+                        </div>
                         <!--end of signup form-->      
                     </div>
                     <div class="col-md-3"></div>
@@ -130,6 +130,7 @@ import { getAuth, createUserWithEmailAndPassword, signOut } from "firebase/auth"
 import firebase from 'firebase/compat/app'; //will be needed in the future
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
+import {db} from '../main.js';
 
 
 export default {
@@ -160,6 +161,11 @@ export default {
             .then((userCredential) => {
             // Signed in 
             const user = userCredential.user;
+            //database instance to create a document of a cart for newly created user with userid as the document id
+            db.collection('cart').doc(userCredential.user.uid).set({
+                email: userCredential.user.email,
+                uid: userCredential.user.uid
+            })
             })
             //display error message to popup if failed
             .catch((error) => {

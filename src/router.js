@@ -4,7 +4,9 @@ import Meta from 'vue-meta'
 
 import MainDesktop from './views/main-desktop'
 import Menupage from './views/menupage'
+import Menupage2 from './views/menupage2'
 import MyCart from './views/my-cart'
+import MyCart2 from './views/my-cart2'
 import SignUp from './views/SignUp'
 import Myaccount from './views/my-account'
 import Myaccount2 from './views/my-account2'
@@ -29,6 +31,11 @@ export default new Router({
       component: Menupage,
     },
     {
+      name: 'Menupage2',
+      path: '/menu2',
+      component: Menupage2,
+    },
+    {
       name: 'Myaccount',
       path: '/account',
       component: Myaccount,
@@ -42,6 +49,11 @@ export default new Router({
       name: 'MyCart',
       path: '/cart',
       component: MyCart,
+    },
+    {
+      name: 'MyCart2',
+      path: '/cart2',
+      component: MyCart2,
     },
     {
       name: 'SignUp',
