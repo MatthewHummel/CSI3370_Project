@@ -226,7 +226,7 @@
             class="menupage-background09" />
           <span class="menupage-text089">
             <span>
-              product description - A freshly pulled shot of espresso
+              Product Description - A freshly pulled shot of espresso
               layered with steamed whole milk and thick rich foam to
               offer a luxurious velvety texture and complex aroma.
             </span>

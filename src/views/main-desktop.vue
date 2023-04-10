@@ -127,18 +127,22 @@
             </div>
             <div class="main-desktop-item4">
               <span class="main-desktop-text022">
-                <span>item4_description</span>
+                <span>One of our light, medium, dark,
+              decaffeinated, or flavored brews of the day, brewed
+              from only the top 1% of Arabica beans in the world.</span>
               </span>
               <span class="main-desktop-text024">
-                <span>item4</span>
+                <span>Coffee</span>
               </span>
             </div>
             <div class="main-desktop-item3">
               <span class="main-desktop-text026">
-                <span>item3_description</span>
+                <span>Perfectly balanced with a golden
+              crema, this intense espresso has a caramel like aroma,
+              velvety body, earthy flavor and a bittersweet finish.</span>
               </span>
               <span class="main-desktop-text028">
-                <span>item3</span>
+                <span>Espresso</span>
               </span>
               <img
                 src="/playground_assets/line82763-fszu.svg"
@@ -153,18 +157,20 @@
                 class="main-desktop-line7"
               />
               <span class="main-desktop-text030">
-                <span>item2_description</span>
+                <span>A freshly pulled shot of espresso
+              layered with steamed whole milk and thick rich foam to
+              offer a luxurious velvety texture and complex aroma.</span>
               </span>
               <span class="main-desktop-text032">
-                <span>item2</span>
+                <span>Cappuccino</span>
               </span>
             </div>
             <div class="main-desktop-item1">
               <span class="main-desktop-text034">
-                <span>item1_description</span>
+                <span>House made lemonade freshly squeezed using meyer lemons</span>
               </span>
               <span class="main-desktop-text036">
-                <span>item1</span>
+                <span>Lemonade</span>
               </span>
               <img
                 src="/playground_assets/line72763-btrwb.svg"
