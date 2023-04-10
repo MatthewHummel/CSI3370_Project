@@ -474,7 +474,12 @@
           </div>
           <span class="menupage-text117"><span>$2.99</span></span>
           <button class="menupage-addtocartbutton11">
-            <a href="cart" data-name="Black Coffee" data-price="2.99" class="add-to-cart btn btn-primary">Add to cart</a>
+            <img
+              src="/playground_assets/primaryi2617-xzyn-200h.png"
+              alt="PrimaryI2617"
+              class="menupage-primary11"
+            />
+            <span class="menupage-text119"><span>Add to cart</span></span>
           </button>
         </div>
         <div class="menupage-menuheading">
