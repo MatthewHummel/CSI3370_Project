@@ -573,13 +573,11 @@
           />
           <span class="main-desktop-text100">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - Freshly brewed coffee with the finest cream
             </span>
           </span>
           <span class="main-desktop-text102">
-            <span>product_name6</span>
+            <span>Coffee with Cream</span>
           </span>
           <div class="main-desktop-picture1">
             <img
@@ -588,15 +586,7 @@
               class="main-desktop-coffeepic01"
             />
           </div>
-          <span class="main-desktop-text104"><span>$4.99</span></span>
-          <button class="main-desktop-addtocartbutton">
-            <img
-              src="/playground_assets/primaryi2717-zh6-200h.png"
-              alt="PrimaryI2717"
-              class="main-desktop-primary05"
-            />
-            <span class="main-desktop-text106"><span>Add to cart</span></span>
-          </button>
+          <span class="main-desktop-text104"><span>$3.99</span></span>
         </div>
         <div class="main-desktop-productcard1">
           <img
@@ -606,13 +596,13 @@
           />
           <span class="main-desktop-text108">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - Perfectly balanced with a golden
+              crema, this intense espresso has a caramel like aroma,
+              velvety body, earthy flavor and a bittersweet finish.
             </span>
           </span>
           <span class="main-desktop-text110">
-            <span>product_name5</span>
+            <span>Espresso</span>
           </span>
           <div class="main-desktop-picture2">
             <img
@@ -621,15 +611,7 @@
               class="main-desktop-coffeepic011"
             />
           </div>
-          <span class="main-desktop-text112"><span>$4.99</span></span>
-          <button class="main-desktop-addtocartbutton1">
-            <img
-              src="/playground_assets/primaryi2717-6si-200h.png"
-              alt="PrimaryI2717"
-              class="main-desktop-primary06"
-            />
-            <span class="main-desktop-text114"><span>Add to cart</span></span>
-          </button>
+          <span class="main-desktop-text112"><span>$3.49</span></span>
         </div>
         <div class="main-desktop-productcard2">
           <img
@@ -639,13 +621,13 @@
           />
           <span class="main-desktop-text116">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - A freshly pulled shot of espresso
+              layered with steamed whole milk and thick rich foam to
+              offer a luxurious velvety texture and complex aroma.
             </span>
           </span>
           <span class="main-desktop-text118">
-            <span>product_name4</span>
+            <span>Cappuccino</span>
           </span>
           <div class="main-desktop-picture3">
             <img
@@ -654,15 +636,7 @@
               class="main-desktop-coffeepic012"
             />
           </div>
-          <span class="main-desktop-text120"><span>$4.99</span></span>
-          <button class="main-desktop-addtocartbutton2">
-            <img
-              src="/playground_assets/primaryi2717-rxli-200h.png"
-              alt="PrimaryI2717"
-              class="main-desktop-primary07"
-            />
-            <span class="main-desktop-text122"><span>Add to cart</span></span>
-          </button>
+          <span class="main-desktop-text120"><span>$4.00</span></span>
         </div>
         <div class="main-desktop-productcard3">
           <img
@@ -672,13 +646,11 @@
           />
           <span class="main-desktop-text124">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - Our freshest coffee blended together with ice and your choice of flavoring.
             </span>
           </span>
           <span class="main-desktop-text126">
-            <span>product_name3</span>
+            <span>Frappuccino</span>
           </span>
           <div class="main-desktop-picture4">
             <img
@@ -687,15 +659,7 @@
               class="main-desktop-iced-coffee-pic01"
             />
           </div>
-          <span class="main-desktop-text128"><span>$4.99</span></span>
-          <button class="main-desktop-addtocartbutton3">
-            <img
-              src="/playground_assets/primaryi2717-dfrt-200h.png"
-              alt="PrimaryI2717"
-              class="main-desktop-primary08"
-            />
-            <span class="main-desktop-text130"><span>Add to cart</span></span>
-          </button>
+          <span class="main-desktop-text128"><span>$2.89</span></span>
         </div>
         <div class="main-desktop-productcard4">
           <img
@@ -705,13 +669,11 @@
           />
           <span class="main-desktop-text132">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description: Fresh expresso with a shot of any type of milk you'd like
             </span>
           </span>
           <span class="main-desktop-text134">
-            <span>product_name2</span>
+            <span>Latte</span>
           </span>
           <div class="main-desktop-picture5">
             <img
@@ -720,15 +682,7 @@
               class="main-desktop-lattepic01"
             />
           </div>
-          <span class="main-desktop-text136"><span>$4.99</span></span>
-          <button class="main-desktop-addtocartbutton4">
-            <img
-              src="/playground_assets/primaryi2717-wyw5-200h.png"
-              alt="PrimaryI2717"
-              class="main-desktop-primary09"
-            />
-            <span class="main-desktop-text138"><span>Add to cart</span></span>
-          </button>
+          <span class="main-desktop-text136"><span>$3.89</span></span>
         </div>
         <div class="main-desktop-productcard5">
           <img
@@ -738,13 +692,13 @@
           />
           <span class="main-desktop-text140">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - One of our light, medium, dark,
+              decaffeinated, or flavored brews of the day, brewed
+              from only the top 1% of Arabica beans in the world.
             </span>
           </span>
           <span class="main-desktop-text142">
-            <span>product_name1</span>
+            <span>Black Coffee</span>
           </span>
           <div class="main-desktop-picture6">
             <img
@@ -753,15 +707,7 @@
               class="main-desktop-coffeepic013"
             />
           </div>
-          <span class="main-desktop-text144"><span>$4.99</span></span>
-          <button class="main-desktop-addtocartbutton5">
-            <img
-              src="/playground_assets/primaryi692-96qs-200h.png"
-              alt="PrimaryI692"
-              class="main-desktop-primary10"
-            />
-            <span class="main-desktop-text146"><span>Add to cart</span></span>
-          </button>
+          <span class="main-desktop-text144"><span>$2.99</span></span>
         </div>
         <div class="main-desktop-h23">
           <span class="main-desktop-text148">
