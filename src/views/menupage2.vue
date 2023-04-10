@@ -67,7 +67,7 @@
             class="menupage-background02" />
           <span class="menupage-text032">
             <span>
-              Product Description - Fresh daily house made croisant, plain no filling
+              Product Description - Fresh daily house made croissant, plain no filling
             </span>
           </span>
           <span class="menupage-text034">
@@ -92,7 +92,7 @@
             </span>
           </span>
           <span class="menupage-text042">
-            <span>Sandwhich</span>
+            <span>Sandwich</span>
           </span>
           <div class="menupage-picture02">
             <img src="/playground_assets/lattepic01i2717-3y7p-300h.png" alt="Lattepic01I2717"
@@ -151,7 +151,7 @@
             class="menupage-background06" />
           <span class="menupage-text064">
             <span>
-              Product Description - To be added
+              Product Description - Our freshest coffee blended together with ice and your choice of flavoring.
             </span>
           </span>
           <span class="menupage-text066">
@@ -201,9 +201,7 @@
             class="menupage-background08" />
           <span class="menupage-text081">
             <span>
-              Product Description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+             Product Description: Fresh expresso with a shot of any type of milk you'd like
             </span>
           </span>
           <span class="menupage-text083">
@@ -272,9 +270,7 @@
             class="menupage-background11" />
           <span class="menupage-text105">
             <span>
-              Product Description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - Freshly brewed coffee with the finest cream
             </span>
           </span>
           <span class="menupage-text107">
@@ -301,7 +297,7 @@
             </span>
           </span>
           <span class="menupage-text115">
-            <span>Black coffee</span>
+            <span>Black Coffee</span>
           </span>
           <div class="menupage-picture11">
             <img src="/playground_assets/lattepic01i2617-e67m-300h.png" alt="Lattepic01I2617"
