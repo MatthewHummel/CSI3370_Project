@@ -5,16 +5,16 @@
         <img src="/playground_assets/background1922-iww.svg" alt="background1922" class="main-desktop-background" />
         <div class="main-desktop-headinggroup">
           <div class="main-desktop-navigationbar">
-            <span class="main-desktop-text038"><span><router-link to="/cart" exact>My cart</router-link></span></span>
+            <span class="main-desktop-text038"><span><router-link to="/cart" exact>My Cart</router-link></span></span>
             <span class="main-desktop-text040"><span><router-link to="/account" exact>My
-                  account</router-link></span></span>
+                  Account</router-link></span></span>
             <span class="main-desktop-text042"><span>Menu</span></span>
             <span class="main-desktop-text044"><span><router-link to="/signup2" exact>Sign up</router-link></span></span>
             <span class="main-desktop-text046"><span><router-link to="/home" exact>Home</router-link></span></span>
           </div>
           <img src="/playground_assets/logo1923-7x4p.svg" alt="Logo1923" class="main-desktop-logo" />
           <span class="main-desktop-text048">
-            <span>Super generic cafe</span>
+            <span>Super Generic Cafe</span>
           </span>
         </div>
       </div>
@@ -67,7 +67,7 @@
             class="menupage-background02" />
           <span class="menupage-text032">
             <span>
-              Product Description - Fresh daily house made croisant, plain no filling
+              Product Description - Fresh daily house made croissant, plain no filling
             </span>
           </span>
           <span class="menupage-text034">
@@ -92,7 +92,7 @@
             </span>
           </span>
           <span class="menupage-text042">
-            <span>Sandwhich</span>
+            <span>Sandwich</span>
           </span>
           <div class="menupage-picture02">
             <img src="/playground_assets/lattepic01i2717-3y7p-300h.png" alt="Lattepic01I2717"
@@ -151,7 +151,7 @@
             class="menupage-background06" />
           <span class="menupage-text064">
             <span>
-              Product Description - To be added
+              Product Description - Our freshest coffee blended together with ice and your choice of flavoring.
             </span>
           </span>
           <span class="menupage-text066">
@@ -201,9 +201,7 @@
             class="menupage-background08" />
           <span class="menupage-text081">
             <span>
-              Product Description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+             Product Description: Fresh expresso with a shot of any type of milk you'd like
             </span>
           </span>
           <span class="menupage-text083">
@@ -226,7 +224,7 @@
             class="menupage-background09" />
           <span class="menupage-text089">
             <span>
-              product description - A freshly pulled shot of espresso
+              Product Description - A freshly pulled shot of espresso
               layered with steamed whole milk and thick rich foam to
               offer a luxurious velvety texture and complex aroma.
             </span>
@@ -272,9 +270,7 @@
             class="menupage-background11" />
           <span class="menupage-text105">
             <span>
-              Product Description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - Freshly brewed coffee with the finest cream
             </span>
           </span>
           <span class="menupage-text107">
@@ -301,7 +297,7 @@
             </span>
           </span>
           <span class="menupage-text115">
-            <span>Black coffee</span>
+            <span>Black Coffee</span>
           </span>
           <div class="menupage-picture11">
             <img src="/playground_assets/lattepic01i2617-e67m-300h.png" alt="Lattepic01I2617"

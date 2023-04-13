@@ -25,25 +25,25 @@
         </div>
         <div class="main-desktop-quickinfo">
           <div class="main-desktop-phone">
-            <span class="main-desktop-text"><span>Call us now</span></span>
-            <span class="main-desktop-text002"><span>123-456-7890</span></span>
+            <span class="main-desktop-text"><span>Call Us Now</span></span>
+            <span class="main-desktop-text002"><span>248-456-7890</span></span>
             <div class="main-desktop-frame-iconsiccall">
               <div class="main-desktop-icon-color"></div>
             </div>
           </div>
           <div class="main-desktop-location">
-            <span class="main-desktop-text004"><span>Nearest cafe</span></span>
+            <span class="main-desktop-text004"><span>Nearest Cafe</span></span>
             <span class="main-desktop-text006">
-              <span>123 fakeStreet, fake town MI</span>
+              <span>123 N. Main Street, Rochester MI</span>
             </span>
             <div class="main-desktop-frame-iconsicnearme">
               <div class="main-desktop-icon-color1"></div>
             </div>
           </div>
           <div class="main-desktop-time">
-            <span class="main-desktop-text008"><span>Working hours</span></span>
+            <span class="main-desktop-text008"><span>Working Hours</span></span>
             <span class="main-desktop-text010">
-              <span>Place an order any time between</span>
+              <span>Place An Order Between</span>
             </span>
             <div class="main-desktop-frame-iconsicwatchlater">
               <div class="main-desktop-icon-color2"></div>
@@ -51,13 +51,13 @@
           </div>
         </div>
         <span class="main-desktop-text012">
-          <span>Ethically sourced, ethically produced, ethically consumed</span>
+          <span>Super Generic Cafe: Ethically Sourced in Every Way</span>
         </span>
         <span class="main-desktop-text014"><span>10:00am - 7:00pm</span></span>
       </div>
       <div class="main-desktop-seasonalitemmodule">
         <div class="main-desktop-header">
-          <span class="main-desktop-text016"><span>seasonal items</span></span>
+          <span class="main-desktop-text016"><span>Daily Favorites</span></span>
           <span class="main-desktop-text018">
             <span>Order by 2:00pm daily</span>
           </span>
@@ -127,18 +127,22 @@
             </div>
             <div class="main-desktop-item4">
               <span class="main-desktop-text022">
-                <span>item4_description</span>
+                <span>One of our light, medium, dark,
+              decaffeinated, or flavored brews of the day, brewed
+              from only the top 1% of Arabica beans in the world.</span>
               </span>
               <span class="main-desktop-text024">
-                <span>item4</span>
+                <span>Coffee</span>
               </span>
             </div>
             <div class="main-desktop-item3">
               <span class="main-desktop-text026">
-                <span>item3_description</span>
+                <span>Perfectly balanced with a golden
+              crema, this intense espresso has a caramel like aroma,
+              velvety body, earthy flavor and a bittersweet finish.</span>
               </span>
               <span class="main-desktop-text028">
-                <span>item3</span>
+                <span>Espresso</span>
               </span>
               <img
                 src="/playground_assets/line82763-fszu.svg"
@@ -153,18 +157,20 @@
                 class="main-desktop-line7"
               />
               <span class="main-desktop-text030">
-                <span>item2_description</span>
+                <span>A freshly pulled shot of espresso
+              layered with steamed whole milk and thick rich foam to
+              offer a luxurious velvety texture and complex aroma.</span>
               </span>
               <span class="main-desktop-text032">
-                <span>item2</span>
+                <span>Cappuccino</span>
               </span>
             </div>
             <div class="main-desktop-item1">
               <span class="main-desktop-text034">
-                <span>item1_description</span>
+                <span>House made lemonade freshly squeezed using meyer lemons</span>
               </span>
               <span class="main-desktop-text036">
-                <span>item1</span>
+                <span>Lemonade</span>
               </span>
               <img
                 src="/playground_assets/line72763-btrwb.svg"
@@ -183,8 +189,8 @@
         />
         <div class="main-desktop-headinggroup">
           <div class="main-desktop-navigationbar">
-            <span class="main-desktop-text038"><span><router-link to="/cart" exact>My cart</router-link></span></span>
-            <span class="main-desktop-text040"><span><router-link to="/account" exact>My account</router-link></span></span>
+            <span class="main-desktop-text038"><span><router-link to="/cart" exact>My Cart</router-link></span></span>
+            <span class="main-desktop-text040"><span><router-link to="/account" exact>My Account</router-link></span></span>
             <span class="main-desktop-text042"><span><router-link to="/menu" exact>Menu</router-link></span></span>
             <span class="main-desktop-text044"><span><router-link to="/signup2" exact>Sign up</router-link></span></span>
             <span class="main-desktop-text046"><span>Home</span></span>
@@ -195,7 +201,7 @@
             class="main-desktop-logo"
           />
           <span class="main-desktop-text048">
-            <span>Super generic cafe</span>
+            <span>Super Generic Cafe</span>
           </span>
         </div>
       </div>
@@ -266,7 +272,7 @@
         </div>
         <div class="main-desktop-h21">
           <span class="main-desktop-text066">
-            <span>Ethically sourced reviews</span>
+            <span>Ethically Sourced Reviews</span>
           </span>
           <img
             src="/playground_assets/linei926-xkt-200h.png"
@@ -277,10 +283,10 @@
         <div class="main-desktop-customerreview">
           <div class="main-desktop-user">
             <span class="main-desktop-text068">
-              <span>customerName2</span>
+              <span>@SamSmith</span>
             </span>
             <span class="main-desktop-text070">
-              <span>date_of_review2</span>
+              <span>Feburary 25th 2023</span>
             </span>
           </div>
           <div class="main-desktop-rating">
@@ -313,11 +319,8 @@
           <div class="main-desktop-description">
             <span class="main-desktop-text072">
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut Lorem ipsum dolor sit amet,
-                consectetur adipiscing. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum
-                dolor sit amet, consectetur adipiscing.
+                The best cafe I have ever visited. Was a lovely experience.
+                Recommend them all the time to my friends and family.
               </span>
             </span>
             <img
@@ -330,10 +333,10 @@
         <div class="main-desktop-customerreview1">
           <div class="main-desktop-user1">
             <span class="main-desktop-text074">
-              <span>customerName</span>
+              <span>@JohnDoe</span>
             </span>
             <span class="main-desktop-text076">
-              <span>date_of_review</span>
+              <span>March 14th 2023</span>
             </span>
           </div>
           <div class="main-desktop-rating1">
@@ -366,11 +369,8 @@
           <div class="main-desktop-description1">
             <span class="main-desktop-text078">
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut Lorem ipsum dolor sit amet,
-                consectetur adipiscing. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum
-                dolor sit amet, consectetur adipiscing.
+                A very nice, generic cafe in the heart of Rochester.
+                Gives off a good vibe and the coffee is fantastic.
               </span>
             </span>
             <img
@@ -383,7 +383,7 @@
         <div class="main-desktop-customerreview2">
           <div class="main-desktop-user2">
             <span class="main-desktop-text080"><span>@MatthewHummel</span></span>
-            <span class="main-desktop-text082"><span>July 23rd 2021</span></span>
+            <span class="main-desktop-text082"><span>Feburary 23rd 2023</span></span>
           </div>
           <div class="main-desktop-rating2">
             <img
@@ -415,11 +415,8 @@
           <div class="main-desktop-description2">
             <span class="main-desktop-text084">
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut Lorem ipsum dolor sit amet,
-                consectetur adipiscing. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum
-                dolor sit amet, consectetur adipiscing.
+                A lovely little cafe with fabulous expresso. 
+                Expresso so good it keeps away the depresso.
               </span>
             </span>
             <img
@@ -486,7 +483,7 @@
       <div class="main-desktop-contactusmodule">
         <div class="main-desktop-h22">
           <span class="main-desktop-text087">
-            <span>Get in touch with us!</span>
+            <span>Get in Touch With Us!</span>
           </span>
           <img
             src="/playground_assets/linei986-avvf-200h.png"
@@ -497,7 +494,7 @@
         <div class="main-desktop-info">
           <div class="main-desktop-phone1">
             <span class="main-desktop-text089">
-              <span>phone_number</span>
+              <span>248-456-7890</span>
             </span>
             <img
               src="/playground_assets/vector9630-hghl.svg"
@@ -507,7 +504,7 @@
           </div>
           <div class="main-desktop-location1">
             <span class="main-desktop-text091">
-              <span>location</span>
+              <span>Rochester MI</span>
             </span>
             <img
               src="/playground_assets/vector9630-hghl.svg"
@@ -517,7 +514,7 @@
           </div>
           <div class="main-desktop-email">
             <span class="main-desktop-text093">
-              <span>email</span>
+              <span>supergenericcafe@gmail.com</span>
             </span>
             <img
               src="/playground_assets/vector9630-hghl.svg"
@@ -534,7 +531,7 @@
               class="main-desktop-primary01"
             />
             <span class="main-desktop-text095">
-              Email body
+              <input type="text" placeholder="Contact Us Body">
             </span>
           </div>
           <div class="main-desktop-inputfield1">
@@ -544,7 +541,7 @@
               class="main-desktop-primary02"
             />
             <span class="main-desktop-text096">
-              Name of person sending form
+              <input type="text" placeholder="Customer Name">
             </span>
           </div>
           <div class="main-desktop-inputfield2">
@@ -554,7 +551,7 @@
               class="main-desktop-primary03"
             />
             <span class="main-desktop-text097">
-              Email heading
+              <input type="text" placeholder="Customer Email">
             </span>
           </div>
           <button class="main-desktop-sendbuttonnormalstate21">
@@ -576,13 +573,11 @@
           />
           <span class="main-desktop-text100">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - Freshly brewed coffee with the finest cream
             </span>
           </span>
           <span class="main-desktop-text102">
-            <span>product_name6</span>
+            <span>Coffee with Cream</span>
           </span>
           <div class="main-desktop-picture1">
             <img
@@ -591,15 +586,7 @@
               class="main-desktop-coffeepic01"
             />
           </div>
-          <span class="main-desktop-text104"><span>$4.99</span></span>
-          <button class="main-desktop-addtocartbutton">
-            <img
-              src="/playground_assets/primaryi2717-zh6-200h.png"
-              alt="PrimaryI2717"
-              class="main-desktop-primary05"
-            />
-            <span class="main-desktop-text106"><span>Add to cart</span></span>
-          </button>
+          <span class="main-desktop-text104"><span>$3.99</span></span>
         </div>
         <div class="main-desktop-productcard1">
           <img
@@ -609,13 +596,13 @@
           />
           <span class="main-desktop-text108">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - Perfectly balanced with a golden
+              crema, this intense espresso has a caramel like aroma,
+              velvety body, earthy flavor and a bittersweet finish.
             </span>
           </span>
           <span class="main-desktop-text110">
-            <span>product_name5</span>
+            <span>Espresso</span>
           </span>
           <div class="main-desktop-picture2">
             <img
@@ -624,15 +611,7 @@
               class="main-desktop-coffeepic011"
             />
           </div>
-          <span class="main-desktop-text112"><span>$4.99</span></span>
-          <button class="main-desktop-addtocartbutton1">
-            <img
-              src="/playground_assets/primaryi2717-6si-200h.png"
-              alt="PrimaryI2717"
-              class="main-desktop-primary06"
-            />
-            <span class="main-desktop-text114"><span>Add to cart</span></span>
-          </button>
+          <span class="main-desktop-text112"><span>$3.49</span></span>
         </div>
         <div class="main-desktop-productcard2">
           <img
@@ -642,13 +621,13 @@
           />
           <span class="main-desktop-text116">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - A freshly pulled shot of espresso
+              layered with steamed whole milk and thick rich foam to
+              offer a luxurious velvety texture and complex aroma.
             </span>
           </span>
           <span class="main-desktop-text118">
-            <span>product_name4</span>
+            <span>Cappuccino</span>
           </span>
           <div class="main-desktop-picture3">
             <img
@@ -657,15 +636,7 @@
               class="main-desktop-coffeepic012"
             />
           </div>
-          <span class="main-desktop-text120"><span>$4.99</span></span>
-          <button class="main-desktop-addtocartbutton2">
-            <img
-              src="/playground_assets/primaryi2717-rxli-200h.png"
-              alt="PrimaryI2717"
-              class="main-desktop-primary07"
-            />
-            <span class="main-desktop-text122"><span>Add to cart</span></span>
-          </button>
+          <span class="main-desktop-text120"><span>$4.00</span></span>
         </div>
         <div class="main-desktop-productcard3">
           <img
@@ -675,13 +646,11 @@
           />
           <span class="main-desktop-text124">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - Our freshest coffee blended together with ice and your choice of flavoring.
             </span>
           </span>
           <span class="main-desktop-text126">
-            <span>product_name3</span>
+            <span>Frappuccino</span>
           </span>
           <div class="main-desktop-picture4">
             <img
@@ -690,15 +659,7 @@
               class="main-desktop-iced-coffee-pic01"
             />
           </div>
-          <span class="main-desktop-text128"><span>$4.99</span></span>
-          <button class="main-desktop-addtocartbutton3">
-            <img
-              src="/playground_assets/primaryi2717-dfrt-200h.png"
-              alt="PrimaryI2717"
-              class="main-desktop-primary08"
-            />
-            <span class="main-desktop-text130"><span>Add to cart</span></span>
-          </button>
+          <span class="main-desktop-text128"><span>$2.89</span></span>
         </div>
         <div class="main-desktop-productcard4">
           <img
@@ -708,13 +669,11 @@
           />
           <span class="main-desktop-text132">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description: Fresh expresso with a shot of any type of milk you'd like
             </span>
           </span>
           <span class="main-desktop-text134">
-            <span>product_name2</span>
+            <span>Latte</span>
           </span>
           <div class="main-desktop-picture5">
             <img
@@ -723,15 +682,7 @@
               class="main-desktop-lattepic01"
             />
           </div>
-          <span class="main-desktop-text136"><span>$4.99</span></span>
-          <button class="main-desktop-addtocartbutton4">
-            <img
-              src="/playground_assets/primaryi2717-wyw5-200h.png"
-              alt="PrimaryI2717"
-              class="main-desktop-primary09"
-            />
-            <span class="main-desktop-text138"><span>Add to cart</span></span>
-          </button>
+          <span class="main-desktop-text136"><span>$3.89</span></span>
         </div>
         <div class="main-desktop-productcard5">
           <img
@@ -741,13 +692,13 @@
           />
           <span class="main-desktop-text140">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - One of our light, medium, dark,
+              decaffeinated, or flavored brews of the day, brewed
+              from only the top 1% of Arabica beans in the world.
             </span>
           </span>
           <span class="main-desktop-text142">
-            <span>product_name1</span>
+            <span>Black Coffee</span>
           </span>
           <div class="main-desktop-picture6">
             <img
@@ -756,15 +707,7 @@
               class="main-desktop-coffeepic013"
             />
           </div>
-          <span class="main-desktop-text144"><span>$4.99</span></span>
-          <button class="main-desktop-addtocartbutton5">
-            <img
-              src="/playground_assets/primaryi692-96qs-200h.png"
-              alt="PrimaryI692"
-              class="main-desktop-primary10"
-            />
-            <span class="main-desktop-text146"><span>Add to cart</span></span>
-          </button>
+          <span class="main-desktop-text144"><span>$2.99</span></span>
         </div>
         <div class="main-desktop-h23">
           <span class="main-desktop-text148">
@@ -806,7 +749,7 @@
               class="main-desktop-messagevector"
             />
           </div>
-          <span class="main-desktop-text152"><span>Hang out spot</span></span>
+          <span class="main-desktop-text152"><span>Hang Out Spot</span></span>
         </div>
         <div class="main-desktop-partyad">
           <div class="main-desktop-group104">
@@ -821,7 +764,7 @@
               class="main-desktop-vector20"
             />
           </div>
-          <span class="main-desktop-text154"><span>Small parties</span></span>
+          <span class="main-desktop-text154"><span>Small Parties</span></span>
         </div>
       </div>
       <div class="main-desktop-tipmodule">
@@ -841,13 +784,13 @@
         <div class="main-desktop-text156">
           <span class="main-desktop-text157">
             <span>
-              <span>Start your day</span>
+              <span>Start Your Day</span>
               <br />
-              <span>with coffee!</span>
+              <span>With Coffee!</span>
             </span>
           </span>
           <span class="main-desktop-text162">
-            <span>description text</span>
+            <span>Freshly brewed coffee and baked goods every day!</span>
           </span>
         </div>
         <div class="main-desktop-button-ui">
@@ -870,7 +813,7 @@
       </div>
       <div class="main-desktop-h24">
         <span class="main-desktop-text164">
-          <span>Upcoming ethical events</span>
+          <span>Upcoming Ethical Events</span>
         </span>
         <img src="/playground_assets/linei265-em9n-200h.png" alt="LineI265" class="main-desktop-line" />
       </div>
@@ -958,20 +901,20 @@
             class="main-desktop-imagecard"
           />
           <span class="main-desktop-text229">
-            <span>EVENT_NAME</span>
+            <span>Coffee Lovers Anonymous</span>
           </span>
           <span class="main-desktop-text231">
             <span>July 22nd 1:00pm - 3:00pm</span>
           </span>
           <div class="main-desktop-description3">
             <span class="main-desktop-text233">
-              <span>EVENT_DESCRIPTION</span>
+              <span>A place for coffee lovers to talk about their love of coffee</span>
             </span>
           </div>
         </div>
         <div class="main-desktop-upcomingevent">
           <span class="main-desktop-text235">
-            <span>Coffee fanatic meetup</span>
+            <span>Coffee Talk</span>
           </span>
           <span class="main-desktop-text237">
             <span>July 3rd 11:00am - 12:00pm</span>
@@ -979,8 +922,8 @@
           <div class="main-desktop-content">
             <span class="main-desktop-text239">
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut
+                A conference about all things coffee 
+                and new suggestions for the cafe.
               </span>
             </span>
           </div>

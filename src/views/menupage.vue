@@ -21,7 +21,7 @@
             class="main-desktop-logo"
           />
           <span class="main-desktop-text048">
-            <span>Super generic cafe</span>
+            <span>Super Generic Cafe</span>
           </span>
         </div>
       </div>
@@ -87,13 +87,11 @@
           />
           <span class="menupage-text024">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - Bowl of mixed freshly cut fruit
             </span>
           </span>
           <span class="menupage-text026">
-            <span>product_name26</span>
+            <span>Mixed Fruit</span>
           </span>
           <div class="menupage-picture">
             <img
@@ -120,13 +118,11 @@
           />
           <span class="menupage-text032">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - Fresh daily house made croissant, plain no filling
             </span>
           </span>
           <span class="menupage-text034">
-            <span>product_name25</span>
+            <span>Croissant</span>
           </span>
           <div class="menupage-picture01">
             <img
@@ -135,7 +131,7 @@
               class="menupage-lattepic011"
             />
           </div>
-          <span class="menupage-text036"><span>$4.99</span></span>
+          <span class="menupage-text036"><span>$2.49</span></span>
           <button class="menupage-addtocartbutton01">
             <img
               src="/playground_assets/primaryi2717-yilc-200h.png"
@@ -153,13 +149,11 @@
           />
           <span class="menupage-text040">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - House made Sandwich prepared with freshly sliced deli meats and veggies
             </span>
           </span>
           <span class="menupage-text042">
-            <span>product_name24</span>
+            <span>Sandwich</span>
           </span>
           <div class="menupage-picture02">
             <img
@@ -168,7 +162,7 @@
               class="menupage-lattepic012"
             />
           </div>
-          <span class="menupage-text044"><span>$4.99</span></span>
+          <span class="menupage-text044"><span>$5.29</span></span>
           <button class="menupage-addtocartbutton02">
             <img
               src="/playground_assets/primaryi2717-boyp-200h.png"
@@ -186,13 +180,11 @@
           />
           <span class="menupage-text048">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - Loose leaf ceylon tea shipped to us straight from Sri Lanka
             </span>
           </span>
           <span class="menupage-text050">
-            <span>product_name23</span>
+            <span>Tea</span>
           </span>
           <div class="menupage-picture03">
             <img
@@ -201,7 +193,7 @@
               class="menupage-lattepic013"
             />
           </div>
-          <span class="menupage-text052"><span>$4.99</span></span>
+          <span class="menupage-text052"><span>$1.89</span></span>
           <button class="menupage-addtocartbutton03">
             <img
               src="/playground_assets/primaryi2717-pdhc-200h.png"
@@ -219,13 +211,11 @@
           />
           <span class="menupage-text056">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - House made lemonade freshly squeezed using meyer lemons
             </span>
           </span>
           <span class="menupage-text058">
-            <span>product_name22</span>
+            <span>Lemonade</span>
           </span>
           <div class="menupage-picture04">
             <img
@@ -234,7 +224,7 @@
               class="menupage-lattepic014"
             />
           </div>
-          <span class="menupage-text060"><span>$4.99</span></span>
+          <span class="menupage-text060"><span>$2.39</span></span>
           <button class="menupage-addtocartbutton04">
             <img
               src="/playground_assets/primaryi2717-dhtw-200h.png"
@@ -252,13 +242,11 @@
           />
           <span class="menupage-text064">
             <span>
-              product description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - Our freshest coffee blended together with ice and your choice of flavoring.
             </span>
           </span>
           <span class="menupage-text066">
-            <span>product_name21</span>
+            <span>Frappuccino</span>
           </span>
           <div class="menupage-picture05">
             <img
@@ -267,7 +255,7 @@
               class="menupage-lattepic015"
             />
           </div>
-          <span class="menupage-text068"><span>$4.99</span></span>
+          <span class="menupage-text068"><span>$2.89</span></span>
           <button class="menupage-addtocartbutton05">
             <img
               src="/playground_assets/primaryi2717-7q3-200h.png"
@@ -313,7 +301,7 @@
               class="menupage-coffeepic01"
             />
           </div>
-          <span class="menupage-text077"><span>$3.50</span></span>
+          <span class="menupage-text077"><span>$1.49</span></span>
           <button class="menupage-addtocartbutton06">
             <img
               src="/playground_assets/primaryi2717-gm06-200h.png"
@@ -331,9 +319,7 @@
           />
           <span class="menupage-text081">
             <span>
-              Product Description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description: Fresh expresso with a shot of any type of milk you'd like
             </span>
           </span>
           <span class="menupage-text083">
@@ -351,7 +337,7 @@
               class="menupage-coffeepic011"
             />
           </div>
-          <span class="menupage-text085"><span>$4.99</span></span>
+          <span class="menupage-text085"><span>$3.89</span></span>
           <button class="menupage-addtocartbutton07">
             <img
               src="/playground_assets/primaryi2717-3w1b-200h.png"
@@ -369,7 +355,7 @@
           />
           <span class="menupage-text089">
             <span>
-              product description - A freshly pulled shot of espresso 
+              Product Description - A freshly pulled shot of espresso 
               layered with steamed whole milk and thick rich foam to 
               offer a luxurious velvety texture and complex aroma.
             </span>
@@ -384,7 +370,7 @@
               class="menupage-coffeepic012"
             />
           </div>
-          <span class="menupage-text093"><span>$4.99</span></span>
+          <span class="menupage-text093"><span>$4.00</span></span>
           <button class="menupage-addtocartbutton08">
             <img
               src="/playground_assets/primaryi2717-qyuw-200h.png"
@@ -417,7 +403,7 @@
               class="menupage-coffeepic013"
             />
           </div>
-          <span class="menupage-text101"><span>$4.99</span></span>
+          <span class="menupage-text101"><span>$3.49</span></span>
           <button class="menupage-addtocartbutton09">
             <img
               src="/playground_assets/primaryi2717-m9bi-200h.png"
@@ -435,9 +421,7 @@
           />
           <span class="menupage-text105">
             <span>
-              Product Description - Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+              Product Description - Freshly brewed coffee with the finest cream
             </span>
           </span>
           <span class="menupage-text107">
@@ -474,7 +458,7 @@
             </span>
           </span>
           <span class="menupage-text115">
-            <span>Black coffee</span>
+            <span>Black Coffee</span>
           </span>
           <div class="menupage-picture11">
             <img
@@ -490,7 +474,12 @@
           </div>
           <span class="menupage-text117"><span>$2.99</span></span>
           <button class="menupage-addtocartbutton11">
-            <a href="cart" data-name="Black Coffee" data-price="2.99" class="add-to-cart btn btn-primary">Add to cart</a>
+            <img
+              src="/playground_assets/primaryi2617-xzyn-200h.png"
+              alt="PrimaryI2617"
+              class="menupage-primary11"
+            />
+            <span class="menupage-text119"><span>Add to cart</span></span>
           </button>
         </div>
         <div class="menupage-menuheading">
