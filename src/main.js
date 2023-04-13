@@ -7,6 +7,7 @@ import LottieVuePlayer from '@lottiefiles/vue-lottie-player'
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
+import { getFirestore } from "firebase/firestore";
 
 
 Vue.use(LottieVuePlayer)
@@ -27,7 +28,8 @@ const firebaseApp = firebase.initializeApp(firebaseConfig);
 // use these for db and auth
 const db = firebaseApp.firestore();
 const auth = firebase.auth();
-export { auth, db };
+const db2 = getFirestore(firebaseApp);
+export { auth, db, db2 };
 
 
 new Vue({

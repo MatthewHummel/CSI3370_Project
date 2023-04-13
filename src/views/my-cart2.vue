@@ -60,7 +60,7 @@
             <span class="my-cart-text11">
               Total:
             </span>
-            <span>$00.00</span>
+            <span>${{ total }}</span>
           </span>
           <img
             alt="Line22617"
@@ -72,7 +72,7 @@
             <span class="my-cart-text16">
               Tax:
             </span>
-            <span>$0.00</span>
+            <span>${{ tax }}</span>
           </span>
           <span class="my-cart-text18">
             <span class="my-cart-text19">Discounts: -</span>
@@ -82,146 +82,34 @@
             <span class="my-cart-text22">
               Subtotal:
             </span>
-            <span>$00.00</span>
+            <span>${{ subTotal }}</span>
           </span>
         </div>
         <div class="my-cart-cartitems">
-          <div class="my-cart-item4">
-            <div class="my-cart-productpicture3">
-              <img
-                alt="placeholder2617"
-                src="/playground_assets/placeholder2617-uiu.svg"
-                class="my-cart-placeholder3"
-              />
-            </div>
-            <span class="my-cart-text39">
-              <span>product_name</span>
-            </span>
-            <img
-              alt="Trashicon2617"
-              src="/playground_assets/trashicon2617-z96.svg"
-              class="my-cart-trashicon3"
-            />
-            <div class="my-cart-quantitygroup3">
-              <div class="my-cart-group333">
-                <img
-                  alt="Rectangle102617"
-                  src="/playground_assets/rectangle102617-l56n-200h.png"
-                  class="my-cart-rectangle103"
-                />
-                <span class="my-cart-text41">0</span>
-              </div>
-              <p class="my-cart-rectangle113">
-                -
-              </p>
-              <p class="my-cart-rectangle123">
-                +
-              </p>
-            </div>
-            <span class="my-cart-text42"><span>$0.00</span></span>
-          </div>
-          <div class="my-cart-item3">
-            <div class="my-cart-productpicture3">
-              <img
-                alt="placeholder2617"
-                src="/playground_assets/placeholder2617-uiu.svg"
-                class="my-cart-placeholder3"
-              />
-            </div>
-            <span class="my-cart-text39">
-              <span>product_name</span>
-            </span>
-            <img
-              alt="Trashicon2617"
-              src="/playground_assets/trashicon2617-z96.svg"
-              class="my-cart-trashicon3"
-            />
-            <div class="my-cart-quantitygroup3">
-              <div class="my-cart-group333">
-                <img
-                  alt="Rectangle102617"
-                  src="/playground_assets/rectangle102617-l56n-200h.png"
-                  class="my-cart-rectangle103"
-                />
-                <span class="my-cart-text41">0</span>
-              </div>
-              <p class="my-cart-rectangle113">
-                -
-              </p>
-              <p class="my-cart-rectangle123">
-                +
-              </p>
-            </div>
-            <span class="my-cart-text42"><span>$0.00</span></span>
-          </div>
-          <div class="my-cart-item2">
-            <div class="my-cart-productpicture3">
-              <img
-                alt="placeholder2617"
-                src="/playground_assets/placeholder2617-uiu.svg"
-                class="my-cart-placeholder3"
-              />
-            </div>
-            <span class="my-cart-text39">
-              <span>product_name</span>
-            </span>
-            <img
-              alt="Trashicon2617"
-              src="/playground_assets/trashicon2617-z96.svg"
-              class="my-cart-trashicon3"
-            />
-            <div class="my-cart-quantitygroup3">
-              <div class="my-cart-group333">
-                <img
-                  alt="Rectangle102617"
-                  src="/playground_assets/rectangle102617-l56n-200h.png"
-                  class="my-cart-rectangle103"
-                />
-                <span class="my-cart-text41">0</span>
-              </div>
-              <p class="my-cart-rectangle113">
-                -
-              </p>
-              <p class="my-cart-rectangle123">
-                +
-              </p>
-            </div>
-            <span class="my-cart-text42"><span>$0.00</span></span>
-          </div>
-          <div class="my-cart-item1">
-            <div class="my-cart-productpicture3">
-              <img
-                alt="placeholder2617"
-                src="/playground_assets/placeholder2617-uiu.svg"
-                class="my-cart-placeholder3"
-              />
-            </div>
-            <span class="my-cart-text39">
-              <span>product_name</span>
-            </span>
-            <img
-              alt="Trashicon2617"
-              src="/playground_assets/trashicon2617-z96.svg"
-              class="my-cart-trashicon3"
-            />
-            <div class="my-cart-quantitygroup3">
-              <div class="my-cart-group333">
-                <img
-                  alt="Rectangle102617"
-                  src="/playground_assets/rectangle102617-l56n-200h.png"
-                  class="my-cart-rectangle103"
-                />
-                <span class="my-cart-text41">0</span>
-              </div>
-              <p class="my-cart-rectangle113">
-                -
-              </p>
-              <p class="my-cart-rectangle123">
-                +
-              </p>
-            </div>
-            <span class="my-cart-text42"><span>$0.00</span></span>
-          </div>
+          <table class="table-text-center">
+            <thead>
+              <tr>
+                <th scope="col">Product Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Remove</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="cartItems in cartItems" :key="cartItems.itemName">
+                <td class="row-itemName">{{ cartItems.itemName }}</td>
+                <td class="row-price">${{  cartItems.price }}</td>
+                <td class="row-quantity">
+                  <button @click="decrementQ(cartItems)" class="btn-decrement">-</button>
+                  {{ cartItems.quantity }}
+                  <button @click="incrementQ(cartItems)" class="btn-increment">+</button>
+                </td>
+                <td class="row-remove">
+                  <button @click="removeItem(cartItems)" class="btn-remove">X</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>                                                  
         </div>
         <div class="main-desktop-footer">
         <div class="main-desktop-group14">
@@ -282,11 +170,138 @@
 </template>
 
 <script>
+import {computed,onBeforeMount,ref} from "vue";
+import { onMounted } from "vue";
+import { db2 } from "../main";
+import firebase from "firebase/compat/app";
+import { getFirestore, doc, updateDoc, increment, deleteDoc } from "@firebase/firestore";
+import { getDocs, collection } from "@firebase/firestore";
+import { async } from "@firebase/util";
+import { applyActionCode } from "@firebase/auth";
+import { Firestore } from "@firebase/firestore";
+import { updateCurrentUser } from "@firebase/auth";
+import { update, getDatabase} from "@firebase/database";
+import { ref as ref2 } from 'firebase/storage'; 
+import { getAuth, onAuthStateChanged, afterAuthStateChanged} from "@firebase/auth";
 export default {
   name: 'MyCart2',
   metaInfo: {
     title: 'Super Generic Cart',
   },
+  
+  
+  mounted(){
+    
+    this.uid =  getAuth().currentUser.uid;
+
+    this.initD();
+  },
+
+  /*setup() {
+    onMounted(()=>{
+      db.collection("cart").doc(auth.currentUser.uid).collection('cartItems').orderBy('quantity').onSnapshot((querySnapshot) => {
+        cart.value=[]
+        querySnapshot.forEach((doc) => {
+
+            cart.value.push(doc.data())
+            products.value.map((p) => {
+              if (doc.data().id ==p.id) {
+                p.cart = true;
+              }
+            });
+        });
+      });
+    
+    })
+
+    const cart = ref([]);
+    const products = ref([
+
+    ]);
+
+  }*/
+  /*carts: {
+    cartItems: []
+    //db.collection('cart').doc('XX84kvQKRsWX5Gfp8fwYJ8KqAgb2').collection('cartItems').get()
+  },*/
+
+  
+
+  
+
+  methods: {
+    async initD() {
+
+      this.cartItems = [];
+      const docsSnap = await getDocs(collection(db2,"cart/" + this.uid + "/cartItems"));
+
+      docsSnap.forEach((doc) => {
+  
+        console.log(doc.data()); // displays docs as objects for testing
+        this.cartItems.push(doc.data()); //adds object to caritems object
+        console.log(this.cartItems); //displays cartItems object for testing
+        
+        
+        
+      });
+
+      //this.subTotal = await this.getSubTotal();
+      
+      await this.getSubTotal();
+    },
+
+    getSubTotal() {
+     
+      let i = 0;
+      const sum = this.cartItems.reduce((accumulator,object) => {
+         return accumulator + (object.price * object.quantity);
+      }, 0);
+
+      this.subTotal = sum.toFixed(2);
+      this.tax = (sum.toFixed(2) * .06).toFixed(2);
+      this.total = (Number(this.subTotal) + Number(this.tax)).toFixed(2);
+    },
+
+
+    async incrementQ(cartItems) {
+      const incRef = doc(db2, 'cart/' + this.uid + '/cartItems', cartItems.itemName);
+
+      await updateDoc(incRef, {
+        quantity: increment(1)
+      });
+      this.initD();
+    },
+
+    async decrementQ(cartItems) {
+      if (cartItems.quantity > 1){
+        const incRef = doc(db2, 'cart/' + this.uid + '/cartItems', cartItems.itemName);
+
+        await updateDoc(incRef, {
+          quantity: increment(-1)
+        });
+        this.initD();
+      }
+    },
+
+    async removeItem(cartItems) {
+
+      await deleteDoc(doc(db2, 'cart/' + this.uid + '/cartItems', cartItems.itemName ));
+      this.initD();
+    }
+    
+  },
+
+  data() {
+    return{
+      cartItems: [],
+      subTotal: 0,
+      tax: 0,
+      total: 0,
+      uid: ""
+      
+    }
+  }
+
 }
 </script>
 
@@ -1649,4 +1664,91 @@ export default {
   margin-bottom: 0;
   text-decoration: none;
 }
+
+.table-text-center {
+  top: 20px;
+  left: 20px;
+  color: rgba(255, 255, 255, 1);
+  width: 750px;
+  height: 100%;
+  position: absolute;
+  font-size: 22px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+th,td,tr, tbody {
+  border: 1px solid;
+  
+}
+
+.btn-increment{
+  background-color: rgb(52, 199, 89);
+  color: rgb(0, 0, 0);
+  padding: 5px 5px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 4px;
+  font-size: 12px;
+  transition-duration: 0.4s;
+}
+
+.btn-increment:hover {
+  background-color: #4CAF50; /* Green */
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
+}
+
+.btn-decrement{
+  background-color: rgb(52, 199, 89);
+  color: rgb(0, 0, 0);
+  padding: 5px 5px;
+  width: 17px;
+  height: fit-content;
+  border-radius: 4px;
+  font-size: 12px;
+  transition-duration: 0.4s;
+}
+
+.btn-decrement:hover {
+  background-color: #4CAF50; /* Green */
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
+}
+
+.btn-remove {
+  background-color: rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
+  width: fit-content;
+  height: fit-content;
+  padding: 5px 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  transition-duration: 0.4s;
+}
+
+.btn-remove:hover {
+  background-color: #c72727; /* Green */
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
+}
+thead {
+  font-size: 22px;
+}
+
+tbody {
+  font-size: 18px;
+}
+
 </style>
