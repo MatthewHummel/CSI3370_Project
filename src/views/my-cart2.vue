@@ -172,7 +172,7 @@
 <script>
 import {computed,onBeforeMount,ref} from "vue";
 import { onMounted } from "vue";
-import { db2 } from "../main";
+import { auth, db2 } from "../main";
 import firebase from "firebase/compat/app";
 import { getFirestore, doc, updateDoc, increment, deleteDoc } from "@firebase/firestore";
 import { getDocs, collection } from "@firebase/firestore";
@@ -190,44 +190,33 @@ export default {
   },
   
   
-  mounted(){
-    
-    this.uid =  getAuth().currentUser.uid;
+   async mounted(){
+  
+    onAuthStateChanged(getAuth(), async (user) => {
+      if (user) {
+        this.uid = user.uid;
+        
+        this.cartItems = [];
+       const docsSnap = await getDocs(collection(db2,"cart/" + this.uid + "/cartItems"));
 
-    this.initD();
-  },
-
-  /*setup() {
-    onMounted(()=>{
-      db.collection("cart").doc(auth.currentUser.uid).collection('cartItems').orderBy('quantity').onSnapshot((querySnapshot) => {
-        cart.value=[]
-        querySnapshot.forEach((doc) => {
-
-            cart.value.push(doc.data())
-            products.value.map((p) => {
-              if (doc.data().id ==p.id) {
-                p.cart = true;
-              }
-            });
-        });
+        docsSnap.forEach((doc) => {
+  
+        this.cartItems.push(doc.data()); //adds object to caritems object
+        
+        
+        
       });
+
+      } else {
+
+      }
+    });
+
     
-    })
+    console.log("in mounted: " + this.uid);
 
-    const cart = ref([]);
-    const products = ref([
-
-    ]);
-
-  }*/
-  /*carts: {
-    cartItems: []
-    //db.collection('cart').doc('XX84kvQKRsWX5Gfp8fwYJ8KqAgb2').collection('cartItems').get()
-  },*/
-
-  
-
-  
+    
+  },
 
   methods: {
     async initD() {
@@ -237,15 +226,12 @@ export default {
 
       docsSnap.forEach((doc) => {
   
-        console.log(doc.data()); // displays docs as objects for testing
         this.cartItems.push(doc.data()); //adds object to caritems object
-        console.log(this.cartItems); //displays cartItems object for testing
         
         
         
       });
 
-      //this.subTotal = await this.getSubTotal();
       
       await this.getSubTotal();
     },
@@ -287,9 +273,26 @@ export default {
 
       await deleteDoc(doc(db2, 'cart/' + this.uid + '/cartItems', cartItems.itemName ));
       this.initD();
+    },
+
+    getUID() {
+      let uid2 = "";
+      onAuthStateChanged(auth, (user) => {
+      if (user) {
+        uid2 = user.uid;
+        
+      } else {
+        console.log("it brokey");
+      }
+    });
+    console.log("method: " + uid2);
+
+    return uid2;
+    
     }
     
   },
+
 
   data() {
     return{
@@ -297,10 +300,11 @@ export default {
       subTotal: 0,
       tax: 0,
       total: 0,
-      uid: ""
+      uid: "",
       
     }
   }
+  
 
 }
 </script>
