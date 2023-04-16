@@ -79,11 +79,11 @@
                 <img src="/playground_assets/background1922-iww.svg" alt="background1922" class="main-desktop-background" />
                 <div class="main-desktop-headinggroup">
                     <div class="main-desktop-navigationbar">
-                        <span class="main-desktop-text038"><span><router-link to="/cart" exact>My
+                        <span class="main-desktop-text038"><span><router-link to="/cart2" exact>My
                                     cart</router-link></span></span>
-                        <span class="main-desktop-text040"><span><router-link to="/account" exact>My
+                        <span class="main-desktop-text040"><span><router-link to="/account2" exact>My
                                     account</router-link></span></span>
-                        <span class="main-desktop-text042"><span><router-link to="/menu"
+                        <span class="main-desktop-text042"><span><router-link to="/menu2"
                                     exact>Menu</router-link></span></span>
                         <span class="main-desktop-text044"><span>Sign up</span></span>
                         <span class="main-desktop-text046"><span><router-link to="/home"
@@ -150,7 +150,7 @@ export default {
     //mounted function to run if a user is logged in. stops user from clicking sign up header when logged in.
     mounted: function() {
         if(firebase.auth().currentUser)
-        this.$router.replace("account");
+        this.$router.replace("account2");
     },
 
     methods: {

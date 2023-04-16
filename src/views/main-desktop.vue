@@ -189,9 +189,9 @@
         />
         <div class="main-desktop-headinggroup">
           <div class="main-desktop-navigationbar">
-            <span class="main-desktop-text038"><span><router-link to="/cart" exact>My Cart</router-link></span></span>
-            <span class="main-desktop-text040"><span><router-link to="/account" exact>My Account</router-link></span></span>
-            <span class="main-desktop-text042"><span><router-link to="/menu" exact>Menu</router-link></span></span>
+            <span class="main-desktop-text038"><span><router-link to="/cart2" exact>My Cart</router-link></span></span>
+            <span class="main-desktop-text040"><span><router-link to="/account2" exact>My Account</router-link></span></span>
+            <span class="main-desktop-text042"><span><router-link to="/menu2" exact>Menu</router-link></span></span>
             <span class="main-desktop-text044"><span><router-link to="/signup2" exact>Sign up</router-link></span></span>
             <span class="main-desktop-text046"><span>Home</span></span>
           </div>
