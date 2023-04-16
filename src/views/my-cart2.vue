@@ -203,6 +203,7 @@ export default {
   
         this.cartItems.push(doc.data()); //adds object to caritems object
         
+        this.getSubTotal();
         
         
       });
