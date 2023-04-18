@@ -95,7 +95,7 @@
           </span>
           <div class="menupage-picture">
             <img
-              src="/playground_assets/lattepic01i2717-zxpe-300h.png"
+              src="\playground_assets\fruit.png"
               alt="Lattepic01I2717"
               class="menupage-lattepic01"
             />
@@ -126,7 +126,7 @@
           </span>
           <div class="menupage-picture01">
             <img
-              src="/playground_assets/lattepic01i2717-k5uf-300h.png"
+              src="\playground_assets\cross.png"
               alt="Lattepic01I2717"
               class="menupage-lattepic011"
             />
@@ -157,7 +157,7 @@
           </span>
           <div class="menupage-picture02">
             <img
-              src="/playground_assets/lattepic01i2717-3y7p-300h.png"
+              src="\playground_assets\sandwich.png"
               alt="Lattepic01I2717"
               class="menupage-lattepic012"
             />
@@ -188,7 +188,7 @@
           </span>
           <div class="menupage-picture03">
             <img
-              src="/playground_assets/lattepic01i2717-87rh-300h.png"
+              src="\playground_assets\tea.png"
               alt="Lattepic01I2717"
               class="menupage-lattepic013"
             />
@@ -219,7 +219,7 @@
           </span>
           <div class="menupage-picture04">
             <img
-              src="/playground_assets/lattepic01i2717-5qp6-300h.png"
+              src="\playground_assets\lemonade.png"
               alt="Lattepic01I2717"
               class="menupage-lattepic014"
             />
@@ -365,7 +365,7 @@
           </span>
           <div class="menupage-picture08">
             <img
-              src="/playground_assets/coffeepic01i2717-8118-300h.png"
+              src="\playground_assets\Cappuccino.png"
               alt="Coffeepic01I2717"
               class="menupage-coffeepic012"
             />
@@ -398,7 +398,7 @@
           </span>
           <div class="menupage-picture09">
             <img
-              src="/playground_assets/coffeepic01i2717-s39-300h.png"
+              src="\playground_assets\Espresso.png"
               alt="Coffeepic01I2717"
               class="menupage-coffeepic013"
             />

@@ -606,7 +606,7 @@
           </span>
           <div class="main-desktop-picture2">
             <img
-              src="/playground_assets/coffeepic01i2717-qot6-300h.png"
+              src="\playground_assets\Espresso.png"
               alt="Coffeepic01I2717"
               class="main-desktop-coffeepic011"
             />
@@ -631,7 +631,7 @@
           </span>
           <div class="main-desktop-picture3">
             <img
-              src="/playground_assets/coffeepic01i2717-omw-300h.png"
+              src="\playground_assets\Cappuccino.png"
               alt="Coffeepic01I2717"
               class="main-desktop-coffeepic012"
             />
