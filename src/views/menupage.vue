@@ -250,7 +250,7 @@
           </span>
           <div class="menupage-picture05">
             <img
-              src="/playground_assets/lattepic01i2717-tfok-300h.png"
+              src="/playground_assets/icedcoffeepic01i2717-jokb-300h.png"
               alt="Lattepic01I2717"
               class="menupage-lattepic015"
             />
@@ -296,7 +296,7 @@
               class="menupage-lattepic016"
             />
             <img
-              src="/playground_assets/coffeepic01i2717-ga6-300h.png"
+              src="\playground_assets\bottlewater.png"
               alt="Coffeepic01I2717"
               class="menupage-coffeepic01"
             />
@@ -327,12 +327,12 @@
           </span>
           <div class="menupage-picture07">
             <img
-              src="/playground_assets/lattepic01i2717-y8e-300h.png"
+              src="/playground_assets/lattepic01i2717-ae1z-300h.png"
               alt="Lattepic01I2717"
               class="menupage-lattepic017"
             />
             <img
-              src="/playground_assets/coffeepic01i2717-satk-300h.png"
+              src="/playground_assets/lattepic01i2717-5qp6-300h.png"
               alt="Coffeepic01I2717"
               class="menupage-coffeepic011"
             />

@@ -158,7 +158,7 @@
             <span>Frappuccino</span>
           </span>
           <div class="menupage-picture05">
-            <img src="/playground_assets/lattepic01i2717-tfok-300h.png" alt="Lattepic01I2717"
+            <img src="/playground_assets/icedcoffeepic01i2717-jokb-300h.png" alt="Lattepic01I2717"
               class="menupage-lattepic015" />
           </div>
           <span class="menupage-text068"><span>$2.89</span></span>
@@ -187,7 +187,7 @@
           <div class="menupage-picture06">
             <img src="/playground_assets/lattepic01i2717-l6o-300h.png" alt="Lattepic01I2717"
               class="menupage-lattepic016" />
-            <img src="/playground_assets/coffeepic01i2717-ga6-300h.png" alt="Coffeepic01I2717"
+            <img src="\playground_assets\bottlewater.png" alt="Coffeepic01I2717"
               class="menupage-coffeepic01" />
           </div>
           <span class="menupage-text077"><span>$1.49</span></span>
@@ -210,7 +210,7 @@
           <div class="menupage-picture07">
             <img src="/playground_assets/lattepic01i2717-y8e-300h.png" alt="Lattepic01I2717"
               class="menupage-lattepic017" />
-            <img src="/playground_assets/coffeepic01i2717-satk-300h.png" alt="Coffeepic01I2717"
+            <img src="/playground_assets/lattepic01i2717-5qp6-300h.png" alt="Coffeepic01I2717"
               class="menupage-coffeepic011" />
           </div>
           <span class="menupage-text085"><span>$3.89</span></span>
