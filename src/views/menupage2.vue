@@ -208,7 +208,6 @@
           <div class="menupage-picture07">
             <img src="/playground_assets/lattepic01i2717-y8e-300h.png" alt="Lattepic01I2717"
               class="menupage-lattepic017" />
-
           </div>
           <span class="menupage-text085"><span>$3.89</span></span>
           <button @click='addCart("menupage-text083", "menupage-text085")' class="menupage-addtocartbutton07">
