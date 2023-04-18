@@ -1005,6 +1005,14 @@ export default {
   flex-shrink: 0;
   border-color: transparent;
   cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.menupage-addtocartbutton:hover {
+  background-color: rgba(50, 215, 75, 1);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
 }
 
 .menupage-primary {
@@ -1161,6 +1169,14 @@ export default {
   flex-shrink: 0;
   border-color: transparent;
   cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.menupage-addtocartbutton01:hover {
+  background-color: rgba(50, 215, 75, 1);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
 }
 
 .menupage-primary01 {
@@ -1317,6 +1333,14 @@ export default {
   flex-shrink: 0;
   border-color: transparent;
   cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.menupage-addtocartbutton02:hover {
+  background-color: rgba(50, 215, 75, 1);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
 }
 
 .menupage-primary02 {
@@ -1473,6 +1497,14 @@ export default {
   flex-shrink: 0;
   border-color: transparent;
   cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.menupage-addtocartbutton03:hover {
+  background-color: rgba(50, 215, 75, 1);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
 }
 
 .menupage-primary03 {
@@ -1629,6 +1661,14 @@ export default {
   flex-shrink: 0;
   border-color: transparent;
   cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.menupage-addtocartbutton04:hover {
+  background-color: rgba(50, 215, 75, 1);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
 }
 
 .menupage-primary04 {
@@ -1785,6 +1825,14 @@ export default {
   flex-shrink: 0;
   border-color: transparent;
   cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.menupage-addtocartbutton05:hover {
+  background-color: rgba(50, 215, 75, 1);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
 }
 
 .menupage-primary05 {
@@ -2012,6 +2060,14 @@ export default {
   flex-shrink: 0;
   border-color: transparent;
   cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.menupage-addtocartbutton06:hover {
+  background-color: rgba(50, 215, 75, 1);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
 }
 
 .menupage-primary06 {
@@ -2177,6 +2233,14 @@ export default {
   flex-shrink: 0;
   border-color: transparent;
   cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.menupage-addtocartbutton07:hover {
+  background-color: rgba(50, 215, 75, 1);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
 }
 
 .menupage-primary07 {
@@ -2333,6 +2397,14 @@ export default {
   flex-shrink: 0;
   border-color: transparent;
   cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.menupage-addtocartbutton08:hover {
+  background-color: rgba(50, 215, 75, 1);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
 }
 
 .menupage-primary08 {
@@ -2489,6 +2561,14 @@ export default {
   flex-shrink: 0;
   border-color: transparent;
   cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.menupage-addtocartbutton09:hover {
+  background-color: rgba(50, 215, 75, 1);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
 }
 
 .menupage-primary09 {
@@ -2645,6 +2725,14 @@ export default {
   flex-shrink: 0;
   border-color: transparent;
   cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.menupage-addtocartbutton10:hover {
+  background-color: rgba(50, 215, 75, 1);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
 }
 
 .menupage-primary10 {
@@ -2810,6 +2898,14 @@ export default {
   flex-shrink: 0;
   border-color: transparent;
   cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.menupage-addtocartbutton11:hover {
+  background-color: rgba(50, 215, 75, 1);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
 }
 
 .menupage-primary11 {
