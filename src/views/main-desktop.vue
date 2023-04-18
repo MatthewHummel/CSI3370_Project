@@ -581,7 +581,7 @@
           </span>
           <div class="main-desktop-picture1">
             <img
-              src="/playground_assets/coffeepic01i2717-fqs-300h.png"
+              src="\playground_assets\coffeancream.png"
               alt="Coffeepic01I2717"
               class="main-desktop-coffeepic01"
             />

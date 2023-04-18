@@ -429,7 +429,7 @@
           </span>
           <div class="menupage-picture10">
             <img
-              src="/playground_assets/coffeepic01i2717-qy1q-300h.png"
+              src="\playground_assets\coffeancream.png"
               alt="Coffeepic01I2717"
               class="menupage-coffeepic014"
             />
