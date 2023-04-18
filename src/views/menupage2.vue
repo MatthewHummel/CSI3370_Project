@@ -53,7 +53,7 @@
             <span>Mixed Fruit</span>
           </span>
           <div class="menupage-picture">
-            <img src="/playground_assets/lattepic01i2717-zxpe-300h.png" alt="Lattepic01I2717"
+            <img src="/playground_assets/fruit.jpg" alt="Lattepic01I2717"
               class="menupage-lattepic01" />
           </div>
           <span class="menupage-text028"><span>$4.99</span></span>
@@ -74,7 +74,7 @@
             <span>Croissant</span>
           </span>
           <div class="menupage-picture01">
-            <img src="/playground_assets/lattepic01i2717-k5uf-300h.png" alt="Lattepic01I2717"
+            <img src="/playground_assets/crois.jpg" alt="Lattepic01I2717"
               class="menupage-lattepic011" />
           </div>
           <span class="menupage-text036"><span>$2.49</span></span>
@@ -95,7 +95,7 @@
             <span>Sandwich</span>
           </span>
           <div class="menupage-picture02">
-            <img src="/playground_assets/lattepic01i2717-3y7p-300h.png" alt="Lattepic01I2717"
+            <img src="/playground_assets/sandwich.jpg" alt="Lattepic01I2717"
               class="menupage-lattepic012" />
           </div>
           <span class="menupage-text044"><span>$5.29</span></span>
@@ -116,7 +116,7 @@
             <span>Tea</span>
           </span>
           <div class="menupage-picture03">
-            <img src="/playground_assets/lattepic01i2717-87rh-300h.png" alt="Lattepic01I2717"
+            <img src="/playground_assets/tea.jpg" alt="Lattepic01I2717"
               class="menupage-lattepic013" />
           </div>
           <span class="menupage-text052"><span>$1.89</span></span>
@@ -137,7 +137,7 @@
             <span>Lemonade</span>
           </span>
           <div class="menupage-picture04">
-            <img src="/playground_assets/lattepic01i2717-5qp6-300h.png" alt="Lattepic01I2717"
+            <img src="/playground_assets/lemonade.jpg" alt="Lattepic01I2717"
               class="menupage-lattepic014" />
           </div>
           <span class="menupage-text060"><span>$2.39</span></span>
@@ -158,7 +158,7 @@
             <span>Frappuccino</span>
           </span>
           <div class="menupage-picture05">
-            <img src="/playground_assets/lattepic01i2717-tfok-300h.png" alt="Lattepic01I2717"
+            <img src="/playground_assets/frap.jpg" alt="Lattepic01I2717"
               class="menupage-lattepic015" />
           </div>
           <span class="menupage-text068"><span>$2.89</span></span>
@@ -178,17 +178,15 @@
             class="menupage-background07" />
           <span class="menupage-text073">
             <span>
-              Product Description - Aquafina 16.9 oz bottled water.
+              Product Description - 16.9 oz bottled water.
             </span>
           </span>
           <span class="menupage-text075">
             <span>Bottled Water</span>
           </span>
           <div class="menupage-picture06">
-            <img src="/playground_assets/lattepic01i2717-l6o-300h.png" alt="Lattepic01I2717"
+            <img src="/playground_assets/bottle.jpg" alt="Lattepic01I2717"
               class="menupage-lattepic016" />
-            <img src="/playground_assets/coffeepic01i2717-ga6-300h.png" alt="Coffeepic01I2717"
-              class="menupage-coffeepic01" />
           </div>
           <span class="menupage-text077"><span>$1.49</span></span>
           <button @click='addCart("menupage-text075", "menupage-text077")' class="menupage-addtocartbutton06">
@@ -210,8 +208,7 @@
           <div class="menupage-picture07">
             <img src="/playground_assets/lattepic01i2717-y8e-300h.png" alt="Lattepic01I2717"
               class="menupage-lattepic017" />
-            <img src="/playground_assets/coffeepic01i2717-satk-300h.png" alt="Coffeepic01I2717"
-              class="menupage-coffeepic011" />
+
           </div>
           <span class="menupage-text085"><span>$3.89</span></span>
           <button @click='addCart("menupage-text083", "menupage-text085")' class="menupage-addtocartbutton07">
@@ -233,7 +230,7 @@
             <span>Cappuccino</span>
           </span>
           <div class="menupage-picture08">
-            <img src="/playground_assets/coffeepic01i2717-8118-300h.png" alt="Coffeepic01I2717"
+            <img src="/playground_assets/capp.jpg" alt="Coffeepic01I2717"
               class="menupage-coffeepic012" />
           </div>
           <span class="menupage-text093"><span>$4.00</span></span>
@@ -256,7 +253,7 @@
             <span>Espresso</span>
           </span>
           <div class="menupage-picture09">
-            <img src="/playground_assets/coffeepic01i2717-s39-300h.png" alt="Coffeepic01I2717"
+            <img src="/playground_assets/espresso.jpg" alt="Coffeepic01I2717"
               class="menupage-coffeepic013" />
           </div>
           <span class="menupage-text101"><span>$3.49</span></span>
@@ -277,7 +274,7 @@
             <span>Coffee with Cream</span>
           </span>
           <div class="menupage-picture10">
-            <img src="/playground_assets/coffeepic01i2717-qy1q-300h.png" alt="Coffeepic01I2717"
+            <img src="/playground_assets/cwc.jpg" alt="Coffeepic01I2717"
               class="menupage-coffeepic014" />
           </div>
           <span class="menupage-text109"><span>$3.99</span></span>
@@ -328,6 +325,7 @@
 <script>
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { db } from "../main";
+import Vue from 'vue';
 
 export default {
   name: 'Menupage2',
@@ -361,6 +359,7 @@ export default {
              price: price,
              quantity: 1,
             })
+
 
         }
 

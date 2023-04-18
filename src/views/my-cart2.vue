@@ -1675,7 +1675,6 @@ export default {
   left: 20px;
   color: rgba(255, 255, 255, 1);
   width: 750px;
-  height: 100%;
   position: absolute;
   font-size: 22px;
   align-self: auto;
@@ -1688,11 +1687,24 @@ export default {
   margin-right: 0;
   margin-bottom: 0;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 th,td,tr, tbody {
   border: 1px solid;
   
+}
+
+tr {
+  height: 45px;
+}
+
+thead {
+  font-size: 22px;
+}
+
+tbody {
+  font-size: 18px;
 }
 
 .btn-increment{
@@ -1748,12 +1760,4 @@ th,td,tr, tbody {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   
 }
-thead {
-  font-size: 22px;
-}
-
-tbody {
-  font-size: 18px;
-}
-
 </style>
